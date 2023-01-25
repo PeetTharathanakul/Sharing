@@ -11,9 +11,9 @@ public class Itemlist : ScriptableObject
 [System.Serializable]
 public class BPList
 {
+    public float currentpts;
     public int Level;
+    public bool isClaim;
     public Items normalItem;
-    public bool normalClaim;
     public Items premiumItem;
-    public bool premiumClaim;
 }
