@@ -24,11 +24,11 @@ public class ItemGroup : MonoBehaviour
 
     private void Update()
     {
-        if(Battlepass.current.level >= lvl)
+        if(Battlepass.current.level >= lvl && !Battlepass.current.list.BattlePassList[lvl - 1].isClaim)
         {
             button.interactable = true;
         }
-        else if(Battlepass.current.level < lvl || isClaim)
+        else if(Battlepass.current.level < lvl || Battlepass.current.list.BattlePassList[lvl - 1].isClaim)
         {
             button.interactable = false;
         }
@@ -36,6 +36,7 @@ public class ItemGroup : MonoBehaviour
 
     public void ClaimReward()
     {
-        
+        Battlepass.current.list.BattlePassList[lvl - 1].isClaim = true;
+        Debug.Log("itemget" + lvl);
     }
 }
