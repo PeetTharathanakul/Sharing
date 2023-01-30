@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: BPlist
   m_EditorClassIdentifier: 
   BattlePassList:
-  - currentpts: 0
+  - currentpts: 10000
     Level: 1
-    isClaim: 0
+    isClaim: 1
     normalItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
     premiumItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
-  - currentpts: 0
+  - currentpts: 500
     Level: 2
-    isClaim: 0
+    isClaim: 1
     normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
     premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}

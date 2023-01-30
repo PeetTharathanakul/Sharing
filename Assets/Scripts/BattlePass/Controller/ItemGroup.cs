@@ -10,7 +10,7 @@ public class ItemGroup : MonoBehaviour
     public Text lvltext;
     public Items normalitem;
     public Items premiumitem;
-    [SerializeField] private ItemDetails[] itemlist;
+    public ItemDetails[] itemlist;
     public Button button;
 
     private void Start()
@@ -38,5 +38,12 @@ public class ItemGroup : MonoBehaviour
     {
         Battlepass.current.list.BattlePassList[lvl - 1].isClaim = true;
         Debug.Log("itemget" + lvl);
+        itemlist[0].itemToggle.isOn = true;
+        if (Battlepass.current.Premium)
+        {
+            Debug.Log("P_itemget" + lvl);
+            itemlist[1].itemToggle.isOn = true;
+        }
+        
     }
 }

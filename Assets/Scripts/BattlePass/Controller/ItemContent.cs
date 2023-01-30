@@ -6,13 +6,20 @@ using UnityEngine.UI;
 public class ItemContent : MonoBehaviour
 {
     private Itemlist list;
-    public Text LvText;
     public GameObject Content;
     public GameObject itemprefab;
     private GameObject thisitem;
+    public List<ItemGroup> ItemBPlist;
+    public static ItemContent current;
+
+    private void Awake()
+    {
+        current = this;
+    }
 
     private void Start()
     {
+        ItemBPlist.Clear();
         list = Battlepass.current.list;
         Creatitemlist();
     }
@@ -24,6 +31,7 @@ public class ItemContent : MonoBehaviour
             thisitem = Instantiate(itemprefab, Content.transform);
             thisitem.TryGetComponent<ItemGroup>(out ItemGroup thisgroup);
             Content.transform.parent = thisitem.transform;
+            ItemBPlist.Add(thisgroup);
             thisgroup.isClaim = list.BattlePassList[i].isClaim;
             thisgroup.lvl = list.BattlePassList[i].Level;
             thisgroup.normalitem = list.BattlePassList[i].normalItem;

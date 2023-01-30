@@ -9,6 +9,7 @@ public class Battlepass : MonoBehaviour
     public int level;
     public int BPpts;
     public Text LvlText;
+    public bool Premium = false;
     [SerializeField] private float Maxpts;
     public Itemlist list;
     public Slider progressbar;
@@ -20,6 +21,8 @@ public class Battlepass : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("BPPremium", 0) == 1)
+            Premium = true;
         level = PlayerPrefs.GetInt("BPlvl", 1);
         ProgressbarCheck();
         LvlText.text = "Lv : " + level;
@@ -55,5 +58,19 @@ public class Battlepass : MonoBehaviour
             }
         }
         ProgressbarCheck();
+    }
+
+    public void BuyPremium()
+    {
+        Premium = true;
+        PlayerPrefs.SetInt("BPPremium", 1);
+        for (int i = 0; i < level; i++)
+        {
+            if (ItemContent.current.ItemBPlist[i].isClaim)
+            {
+                Debug.Log("P_itemget" + level);
+                ItemContent.current.ItemBPlist[i].itemlist[1].itemToggle.isOn = true;
+            }
+        }
     }
 }
