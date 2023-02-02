@@ -6,6 +6,16 @@ using UnityEngine;
 public class Itemlist : ScriptableObject
 {
    public BPList[] BattlePassList;
+
+    [ContextMenu("Clear")]
+    public void Clear()
+    {
+        foreach (BPList list in BattlePassList)
+        {
+            list.isClaim = false;
+            list.currentpts = 0;
+        }
+    }
 }
 
 [System.Serializable]

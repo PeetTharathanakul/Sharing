@@ -18,8 +18,23 @@ MonoBehaviour:
     isClaim: 1
     normalItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
     premiumItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
-  - currentpts: 500
+  - currentpts: 9500
     Level: 2
     isClaim: 1
+    normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+  - currentpts: 4000
+    Level: 3
+    isClaim: 1
+    normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+  - currentpts: 0
+    Level: 4
+    isClaim: 0
+    normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+  - currentpts: 0
+    Level: 5
+    isClaim: 0
     normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
     premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}

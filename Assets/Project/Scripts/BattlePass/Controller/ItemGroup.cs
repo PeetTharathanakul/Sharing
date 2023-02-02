@@ -24,7 +24,7 @@ public class ItemGroup : MonoBehaviour
 
     private void Update()
     {
-        if(Battlepass.current.level >= lvl && !Battlepass.current.list.BattlePassList[lvl - 1].isClaim)
+        if (Battlepass.current.level >= lvl && !Battlepass.current.list.BattlePassList[lvl - 1].isClaim)
         {
             button.interactable = true;
         }
@@ -37,6 +37,7 @@ public class ItemGroup : MonoBehaviour
     public void ClaimReward()
     {
         Battlepass.current.list.BattlePassList[lvl - 1].isClaim = true;
+        isClaim = Battlepass.current.list.BattlePassList[lvl - 1].isClaim;
         Debug.Log("itemget" + lvl);
         itemlist[0].itemToggle.isOn = true;
         if (Battlepass.current.Premium)

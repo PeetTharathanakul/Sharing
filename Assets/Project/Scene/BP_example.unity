@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &105239975 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1059287238, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
+  m_PrefabInstance: {fileID: 6673003492133453483}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1001870118
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2076071869, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
+      propertyPath: buttonPremium
+      value: 
+      objectReference: {fileID: 105239975}
     - target: {fileID: 6673003491420350962, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
       propertyPath: m_Name
       value: BattlePass
@@ -464,6 +479,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1001870120}
+    - target: {fileID: 6673003491547315342, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673003491547315342, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673003491547315342, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6673003492027888894, guid: 14b6d8a48e4f54549bbc1114f1d48366, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
