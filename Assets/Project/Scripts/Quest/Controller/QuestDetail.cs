@@ -8,52 +8,93 @@ public class QuestDetail : MonoBehaviour
     public Quest thisquest;
     public Text Name;
     public Text[] Description;
-    [SerializeField] private Button QuestButton;
+    public Button QuestButton;
     [SerializeField] private Slider Progression;
-    [SerializeField] private GameObject RewardContent;
-    [SerializeField] private GameObject RewardPrefab;
+    public GameObject RewardContent;
+    public GameObject RewardPrefab;
+    public List<ItemDetails> RewardList;
+    public GameObject Fade;
+    private GameObject r;
     private float CurrentCondition;
-
-    private void Start()
-    {
-        QuestButton.interactable = false;
-        SetDetail();
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void SetDetail()
     {
         Name.text = thisquest.name;
         Description[0].text = thisquest.Description;
-        CurrentCondition = PlayerPrefs.GetInt(thisquest.Condition, 0);
-        Description[1].text = CurrentCondition + "/" + thisquest.ConditionValue;
+        CheckCondition();
         Progression.value = CurrentCondition/thisquest.ConditionValue;
-        ProgressionCheck();
+        
         for (int i = 0; i < thisquest.rewards.Length; i++)
         {
-            var r = Instantiate(RewardPrefab, RewardContent.transform);
-            r.transform.parent = RewardContent.transform;
+            r = Instantiate(RewardPrefab, RewardContent.transform);
             r.TryGetComponent<ItemDetails>(out ItemDetails thisitem);
+            RewardContent.transform.parent = thisitem.transform;
+            RewardList.Add(thisitem);
             thisitem.thisitem = thisquest.rewards[i].RewardItems;
             thisitem.SetDetail(thisquest.IsClaim);
         }
+        StartCoroutine(ProgressionCheck());
     }
 
-    public void ProgressionCheck()
+    private float CheckCondition()
     {
-        if(CurrentCondition >= thisquest.ConditionValue)
+        CurrentCondition = PlayerPrefs.GetInt(thisquest.Condition, 0);
+        return CurrentCondition;
+    }
+
+    public IEnumerator ProgressionCheck()
+    {
+        while (!thisquest.IsClaim)
         {
-            QuestButton.interactable = true;
-            Progression.gameObject.SetActive(false);
+            if (CheckCondition() >= thisquest.ConditionValue && !thisquest.IsClaim)
+            {
+                QuestButton.interactable = true;
+                Progression.gameObject.SetActive(false);
+            }
+            else
+            {
+                Description[1].text = CurrentCondition + "/" + thisquest.ConditionValue;
+                Progression.value = CurrentCondition / thisquest.ConditionValue;
+                QuestButton.interactable = false;
+            }
+            yield return null;
         }
+        Fade.SetActive(true);
+        QuestButton.interactable = false;
+        Progression.gameObject.SetActive(false);
+        gameObject.transform.SetAsLastSibling();
     }
 
     public void GetReward()
     {
+        if(thisquest.QuestPoint > 0)
+        {
+            ProgressReward();
+        }
+        thisquest.IsClaim = true;
+        for (int i = 0; i < RewardList.Count; i++)
+        {
+            RewardList[i].SetDetail(thisquest.IsClaim);
+            Debug.Log("Getitems" + i);
+        }
+    }
 
+    public void ProgressReward()
+    {
+        int i;
+        switch (thisquest.questType)
+        {
+            case QuestType.Daily:
+                i = PlayerPrefs.GetInt("Daily", 0) + thisquest.QuestPoint;
+                PlayerPrefs.SetInt("Daily", i);
+                break;
+            case QuestType.Weekly:
+                i = PlayerPrefs.GetInt("Weekly", 0) + thisquest.QuestPoint;
+                PlayerPrefs.SetInt("Weekly", i);
+                break;
+            case QuestType.BattlePass:
+                Battlepass.current.ProgressCheck(thisquest.QuestPoint);
+                break;
+        }
     }
 }
