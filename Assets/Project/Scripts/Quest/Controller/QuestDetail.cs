@@ -5,14 +5,17 @@ using UnityEngine.UI;
 
 public class QuestDetail : MonoBehaviour
 {
+    [Header("Detail")]
     public Quest thisquest;
     public Text Name;
     public Text[] Description;
-    public Button QuestButton;
-    [SerializeField] private Slider Progression;
+    [Header("Reward")]
     public GameObject RewardContent;
     public GameObject RewardPrefab;
     public List<ItemDetails> RewardList;
+    [Header("UI")]
+    public Button QuestButton;
+    [SerializeField] private Slider Progression;
     public GameObject Fade;
     private GameObject r;
     private float CurrentCondition;
