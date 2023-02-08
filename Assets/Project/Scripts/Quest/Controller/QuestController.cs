@@ -5,14 +5,21 @@ using UnityEngine.UI;
 
 public class QuestController : MonoBehaviour
 {
-    public GameObject content;
+    [Header("Details")]
     public Type thisType;
     public float Maxpts;
+
+    [Header("UI")]
     public Slider progressbar;
     public Text progessText;
+    public Button[] rewardbutton;
+
+    [Header("Object")]
+    public GameObject content;
     [SerializeField] private GameObject QuestPrefab;
     [SerializeField] private List<Quest> QuestList;
-    public List<GameObject> QuestObjList;
+    [HideInInspector] public List<GameObject> QuestObjList;
+    [SerializeField] private ProgressReward P_Reward;
     private GameObject r;
 
     void Start()
@@ -56,16 +63,40 @@ public class QuestController : MonoBehaviour
         {
             progessText.text = Checkpts(type) + "/" + Maxpts;
             progressbar.value = Checkpts(type) / Maxpts;
+            ProgressReward(type);
             yield return null;
         }
         progressbar.value = 1;
         progessText.text = Maxpts + "/" + Maxpts;
+        ProgressReward(type);
         yield return null;
     }
 
     private float Checkpts(string type)
     {
         return PlayerPrefs.GetInt(type, 0);
+    }
+
+    public void ProgressReward(string type)
+    {
+        for (int i = 0; i < P_Reward.RewardList.Length; i++)
+        {
+            if(Checkpts(type) >= P_Reward.RewardList[i].Progressrequire && !P_Reward.RewardList[i].IsClaim)
+            {
+                rewardbutton[i].interactable = true;
+            }
+            else
+            {
+                rewardbutton[i].interactable = false;
+            }
+        }
+    }
+
+    public void GetReward(int num)
+    {
+        P_Reward.RewardList[num].IsClaim = true;
+        rewardbutton[num].interactable = false;
+        Debug.Log("Get Item" + num);
     }
 }
 
