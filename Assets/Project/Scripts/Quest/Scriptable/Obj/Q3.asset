@@ -18,7 +18,7 @@ MonoBehaviour:
   Condition: idle
   ConditionValue: 20
   IsClaim: 0
-  QuestPoint: 20
+  QuestPoint: 60
   rewards:
   - RewardItems: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
     Value: 3

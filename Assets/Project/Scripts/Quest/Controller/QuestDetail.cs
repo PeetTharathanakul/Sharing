@@ -98,6 +98,8 @@ public class QuestDetail : MonoBehaviour
             case QuestType.BattlePass:
                 Battlepass.current.ProgressCheck(thisquest.QuestPoint);
                 break;
+            default:
+                break;
         }
     }
 }
