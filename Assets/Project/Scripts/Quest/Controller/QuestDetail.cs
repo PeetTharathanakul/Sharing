@@ -9,10 +9,12 @@ public class QuestDetail : MonoBehaviour
     public Quest thisquest;
     public Text Name;
     public Text[] Description;
+
     [Header("Reward")]
     public GameObject RewardContent;
     public GameObject RewardPrefab;
     public List<ItemDetails> RewardList;
+
     [Header("UI")]
     public Button QuestButton;
     [SerializeField] private Slider Progression;
@@ -75,11 +77,14 @@ public class QuestDetail : MonoBehaviour
             ProgressReward();
         }
         thisquest.IsClaim = true;
+        Reward.current.rewardlist.Clear();
         for (int i = 0; i < RewardList.Count; i++)
         {
             RewardList[i].SetDetail(thisquest.IsClaim);
+            Reward.current.rewardlist.Add(RewardList[i].thisitem);
             Debug.Log("Getitems" + i);
         }
+        Reward.current.RewardSet();
     }
 
     public void ProgressReward()
@@ -96,7 +101,7 @@ public class QuestDetail : MonoBehaviour
                 PlayerPrefs.SetInt("Weekly", i);
                 break;
             case QuestType.BattlePass:
-                Battlepass.current.ProgressCheck(thisquest.QuestPoint);
+                //Battlepass.current.ProgressCheck(thisquest.QuestPoint);
                 break;
             default:
                 break;
