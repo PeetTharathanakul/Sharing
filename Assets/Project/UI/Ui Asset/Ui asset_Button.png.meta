@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: c78621a28b6034bfeaaf9de9afdaf4f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7823237108910604563
+    second: button_XL
+  - first:
+      213: -4550607950970656992
+    second: button_M
+  - first:
+      213: 2558766263122858132
+    second: button_S
+  - first:
+      213: 6482907620670283349
+    second: button_XL-disable
+  - first:
+      213: 8924993727728448910
+    second: button_M-disable
+  - first:
+      213: 2734676648984014080
+    second: button_S-disable
+  - first:
+      213: -6694499066789935258
+    second: special button_XL
+  - first:
+      213: 6461715201147674190
+    second: special button_M
+  - first:
+      213: -3683098363789847950
+    second: special button_S
+  - first:
+      213: -4349690343717872012
+    second: header button
+  - first:
+      213: -1462028926654406861
+    second: header button disable
+  - first:
+      213: 4632281516849326066
+    second: Kaiju menu
+  - first:
+      213: 3478343077159018320
+    second: Kaiju menu disable
+  - first:
+      213: -6959635309321827583
+    second: HP boss
+  - first:
+      213: 6634934426566109226
+    second: HP kaiju
+  - first:
+      213: -2196064113168114248
+    second: XP bar
+  - first:
+      213: 5297310792073582239
+    second: Useable
+  - first:
+      213: 1725109593609044681
+    second: Ui asset_Button_17
+  - first:
+      213: -3807566771668878484
+    second: button active
+  - first:
+      213: -7959334109222739989
+    second: Setting buton
+  - first:
+      213: 2269811687811837114
+    second: Back button
+  - first:
+      213: 9000451210848747480
+    second: Lock
+  - first:
+      213: -71989154954511497
+    second: Close button
+  - first:
+      213: -2365399995947299804
+    second: Auto play button
+  - first:
+      213: -1676560647136404639
+    second: Speed X2 button
+  - first:
+      213: 5367019271466824403
+    second: previous
+  - first:
+      213: -6555032881880210525
+    second: next
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: button_XL
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1488
+        width: 349
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deebab97c474e6390800000000000000
+      internalID: -7823237108910604563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_M
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1485
+        width: 249
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0276352cd2ef8d0c0800000000000000
+      internalID: -4550607950970656992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_S
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1485
+        width: 208
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49011b00c50928320800000000000000
+      internalID: 2558766263122858132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_XL-disable
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1360
+        width: 349
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e99b1122ae7f950800000000000000
+      internalID: 6482907620670283349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_M-disable
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1374
+        width: 250
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85f7db3282fbdb70800000000000000
+      internalID: 8924993727728448910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_S-disable
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1374
+        width: 208
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d6f3e5ce583f520800000000000000
+      internalID: 2734676648984014080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special button_XL
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1153
+        width: 329
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6674dc6519c5813a0800000000000000
+      internalID: -6694499066789935258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special button_M
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1163
+        width: 236
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e16246dbf9ca950800000000000000
+      internalID: 6461715201147674190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special button_S
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1163
+        width: 196
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272db715d8103ecc0800000000000000
+      internalID: -3683098363789847950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: header button
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 954
+        width: 250
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47edfb39dabc2a3c0800000000000000
+      internalID: -4349690343717872012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: header button disable
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 954
+        width: 250
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f1b67ff64d5bbe0800000000000000
+      internalID: -1462028926654406861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaiju menu
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 733
+        width: 130
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f769672f7b294040800000000000000
+      internalID: 4632281516849326066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaiju menu disable
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 733
+        width: 130
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f9001899e854030800000000000000
+      internalID: 3478343077159018320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP boss
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 546
+        width: 697
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b4b955f886a6f90800000000000000
+      internalID: -6959635309321827583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP kaiju
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 560
+        width: 162
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28ab7325b5041c50800000000000000
+      internalID: 6634934426566109226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP bar
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 441
+        width: 343
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd91a603530681e0800000000000000
+      internalID: -2196064113168114248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Useable
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 205
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96936a5914d38940800000000000000
+      internalID: 5297310792073582239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Button_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 214
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c28fad0902d0f710800000000000000
+      internalID: 1725109593609044681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button active
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 214
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b781cc13ec82bc0800000000000000
+      internalID: -3807566771668878484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting buton
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 201
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befd02b4cc3ca8190800000000000000
+      internalID: -7959334109222739989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back button
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 201
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abced0f34bdff7f10800000000000000
+      internalID: 2269811687811837114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lock
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfbfd890b608ec70800000000000000
+      internalID: 9000451210848747480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Close button
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b7147be3e300ff0800000000000000
+      internalID: -71989154954511497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto play button
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 70
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cc9d17c396c2fd0800000000000000
+      internalID: -2365399995947299804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed X2 button
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 70
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b190769f8abb8e0800000000000000
+      internalID: -1676560647136404639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: previous
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 70
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2b47a779b7b7a40800000000000000
+      internalID: 5367019271466824403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: next
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 70
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a36680f258d705a0800000000000000
+      internalID: -6555032881880210525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      header button disable: -1462028926654406861
+      header button: -4349690343717872012
+      HP boss: -6959635309321827583
+      Lock: 9000451210848747480
+      previous: 5367019271466824403
+      HP kaiju: 6634934426566109226
+      Auto play button: -2365399995947299804
+      button_XL: -7823237108910604563
+      Speed X2 button: -1676560647136404639
+      button active: -3807566771668878484
+      XP bar: -2196064113168114248
+      button_XL-disable: 6482907620670283349
+      special button_M: 6461715201147674190
+      next: -6555032881880210525
+      Kaiju menu: 4632281516849326066
+      Ui asset_Button_17: 1725109593609044681
+      Kaiju menu disable: 3478343077159018320
+      Setting buton: -7959334109222739989
+      Useable: 5297310792073582239
+      Close button: -71989154954511497
+      button_S: 2558766263122858132
+      special button_XL: -6694499066789935258
+      special button_S: -3683098363789847950
+      button_M: -4550607950970656992
+      button_S-disable: 2734676648984014080
+      Back button: 2269811687811837114
+      button_M-disable: 8924993727728448910
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
