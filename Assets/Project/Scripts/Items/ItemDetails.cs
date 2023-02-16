@@ -2,14 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class ItemDetails : MonoBehaviour
+public class ItemDetails : MonoBehaviour , IPointerClickHandler
 {
     public Items thisitem;
     public Toggle itemToggle;
     public Text valuetext;
 
-    public void SetDetail(bool claim)
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        ItemController.current.SetItemDetail(thisitem);
+        //throw new System.NotImplementedException();
+    }
+
+    public void SetDetail(bool claim, int value)
     {
         itemToggle.targetGraphic.GetComponent<Image>().sprite = thisitem.ItemSprite;
         if (claim)
@@ -20,6 +27,8 @@ public class ItemDetails : MonoBehaviour
         {
             itemToggle.isOn = false;
         }
-        valuetext.text = "x" + thisitem.Value;
+        valuetext.text = "x" + value;
     }
+
+    
 }

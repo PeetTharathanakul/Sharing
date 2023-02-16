@@ -21,6 +21,6 @@ MonoBehaviour:
   QuestPoint: 60
   rewards:
   - RewardItems: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
-    Value: 3
+    Value: 9
   - RewardItems: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
-    Value: 4
+    Value: 10

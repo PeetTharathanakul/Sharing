@@ -36,7 +36,7 @@ public class QuestDetail : MonoBehaviour
             RewardContent.transform.parent = thisitem.transform;
             RewardList.Add(thisitem);
             thisitem.thisitem = thisquest.rewards[i].RewardItems;
-            thisitem.SetDetail(thisquest.IsClaim);
+            thisitem.SetDetail(thisquest.IsClaim, thisquest.rewards[i].Value);
         }
         StartCoroutine(ProgressionCheck());
     }
@@ -78,10 +78,13 @@ public class QuestDetail : MonoBehaviour
         }
         thisquest.IsClaim = true;
         Reward.current.rewardlist.Clear();
+        Reward.current.rewardvalue.Clear();
         for (int i = 0; i < RewardList.Count; i++)
         {
-            RewardList[i].SetDetail(thisquest.IsClaim);
+            RewardList[i].SetDetail(thisquest.IsClaim, thisquest.rewards[i].Value);
+            thisquest.rewards[i].RewardItems.Value += thisquest.rewards[i].Value;
             Reward.current.rewardlist.Add(RewardList[i].thisitem);
+            Reward.current.rewardvalue.Add(thisquest.rewards[i].Value);
             Debug.Log("Getitems" + i);
         }
         Reward.current.RewardSet();

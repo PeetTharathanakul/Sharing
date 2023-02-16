@@ -35,7 +35,9 @@ public class ItemContent : MonoBehaviour
             thisgroup.isClaim = list.BattlePassList[i].isClaim;
             thisgroup.lvl = list.BattlePassList[i].Level;
             thisgroup.normalitem = list.BattlePassList[i].normalItem;
+            thisgroup.normaleValue = list.BattlePassList[i].normalValue;
             thisgroup.premiumitem = list.BattlePassList[i].premiumItem;
+            thisgroup.premiumValue = list.BattlePassList[i].premiumValue;
         }
     }
 }

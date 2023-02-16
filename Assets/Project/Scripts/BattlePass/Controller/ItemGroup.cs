@@ -9,7 +9,9 @@ public class ItemGroup : MonoBehaviour
     public int lvl;
     public Text lvltext;
     public Items normalitem;
+    public int normaleValue;
     public Items premiumitem;
+    public int premiumValue;
     public ItemDetails[] itemlist;
     public Button button;
 
@@ -18,8 +20,8 @@ public class ItemGroup : MonoBehaviour
         lvltext.text = "" + lvl;
         itemlist[0].thisitem = normalitem;
         itemlist[1].thisitem = premiumitem;
-        itemlist[0].SetDetail(isClaim);
-        itemlist[1].SetDetail(isClaim);
+        itemlist[0].SetDetail(isClaim, normaleValue);
+        itemlist[1].SetDetail(isClaim, premiumValue);
     }
 
     private void Update()
@@ -40,9 +42,11 @@ public class ItemGroup : MonoBehaviour
         isClaim = Battlepass.current.list.BattlePassList[lvl - 1].isClaim;
         Debug.Log("itemget" + lvl);
         itemlist[0].itemToggle.isOn = true;
+        normalitem.Value += normaleValue;
         if (Battlepass.current.Premium)
         {
             Debug.Log("P_itemget" + lvl);
+            premiumitem.Value += premiumValue;
             itemlist[1].itemToggle.isOn = true;
         }
         

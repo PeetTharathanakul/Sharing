@@ -95,12 +95,15 @@ public class QuestController : MonoBehaviour
     public void GetReward(int num)
     {
         Reward.current.rewardlist.Clear();
+        Reward.current.rewardvalue.Clear();
         var p = P_Reward.RewardList[num];
         p.IsClaim = true;
         rewardbutton[num].interactable = false;
         for (int i = 0; i < p.RewardItems.Length; i++)
         {
             Reward.current.rewardlist.Add(p.RewardItems[i].RewardItems);
+            Reward.current.rewardvalue.Add(p.RewardItems[i].Value);
+            p.RewardItems[i].RewardItems.Value += p.RewardItems[i].Value;
         }
         Reward.current.RewardSet();
     }

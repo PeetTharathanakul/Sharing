@@ -17,24 +17,34 @@ MonoBehaviour:
     Level: 1
     isClaim: 0
     normalItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+    normalValue: 12
     premiumItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    premiumValue: 13
   - currentpts: 0
     Level: 2
     isClaim: 0
     normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    normalValue: 14
     premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+    premiumValue: 15
   - currentpts: 0
     Level: 3
     isClaim: 0
     normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    normalValue: 16
     premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+    premiumValue: 17
   - currentpts: 0
     Level: 4
     isClaim: 0
     normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    normalValue: 18
     premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+    premiumValue: 19
   - currentpts: 0
     Level: 5
     isClaim: 0
     normalItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
+    normalValue: 20
     premiumItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
+    premiumValue: 21

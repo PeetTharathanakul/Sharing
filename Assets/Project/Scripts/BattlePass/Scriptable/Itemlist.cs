@@ -25,5 +25,7 @@ public class BPList
     public int Level;
     public bool isClaim;
     public Items normalItem;
+    public int normalValue;
     public Items premiumItem;
+    public int premiumValue;
 }

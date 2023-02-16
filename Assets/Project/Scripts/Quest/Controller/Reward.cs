@@ -5,6 +5,7 @@ using UnityEngine;
 public class Reward : MonoBehaviour
 {
     public List<Items> rewardlist;
+    public List<int> rewardvalue;
     public GameObject content;
     public GameObject Rewardpopup;
     public GameObject itemprefab;
@@ -35,7 +36,7 @@ public class Reward : MonoBehaviour
             r.TryGetComponent<ItemDetails>(out ItemDetails thisitem);
             content.transform.parent = thisitem.transform;
             thisitem.thisitem = rewardlist[i];
-            thisitem.SetDetail(true);
+            thisitem.SetDetail(false, rewardvalue[i]);
         }
     }
 }
