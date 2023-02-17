@@ -10,13 +10,14 @@ public class Product : ScriptableObject
     public Items ProductItem;
     public bool isBuy;
     public int ProductValue;
+    public int ProductAmount;
     public Currency ProductCurrency;
     public int ProductCost;
 }
 
 public enum Currency
 {
-    Coins,
+    Golds,
     Gems,
     Topup
 }

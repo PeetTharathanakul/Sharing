@@ -16,5 +16,6 @@ MonoBehaviour:
   ProductItem: {fileID: 11400000, guid: afc05821ded90844e9f4f82a610f9845, type: 2}
   isBuy: 0
   ProductValue: 14
+  ProductAmount: 2
   ProductCurrency: 0
   ProductCost: 150

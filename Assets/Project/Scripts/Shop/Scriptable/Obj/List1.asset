@@ -9,13 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a12034f94be4c4f11ae506d5be9c14bb, type: 3}
-  m_Name: p1
+  m_Script: {fileID: 11500000, guid: 562aba992550147719457a0708477aec, type: 3}
+  m_Name: List1
   m_EditorClassIdentifier: 
-  Name: Bundle1
-  ProductItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
-  isBuy: 0
-  ProductValue: 12
-  ProductAmount: 1
-  ProductCurrency: 0
-  ProductCost: 100
+  List:
+  - {fileID: 11400000, guid: 2b6b2db5b40d044d08a4a1a1a8ba3cfe, type: 2}
+  - {fileID: 11400000, guid: 395c1e1d8ade3433192d5289812d790c, type: 2}
+  thisShopType: 0

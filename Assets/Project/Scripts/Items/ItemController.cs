@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemController : MonoBehaviour
 {
     public GameObject ItemUI;
     public Items Item;
     [SerializeField] private Image ItemImage;
-    [SerializeField] private Text ItemName;
-    [SerializeField] private Text ItemDescription;
-    [SerializeField] private Text ItemValue;
+    [SerializeField] private TextMeshProUGUI ItemName;
+    [SerializeField] private TextMeshProUGUI ItemDescription;
+    [SerializeField] private TextMeshProUGUI ItemValue;
     public static ItemController current;
 
     private void Awake()

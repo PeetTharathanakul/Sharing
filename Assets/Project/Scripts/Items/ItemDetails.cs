@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class ItemDetails : MonoBehaviour , IPointerClickHandler
 {
     public Items thisitem;
     public Toggle itemToggle;
-    public Text valuetext;
+    public TextMeshProUGUI valuetext;
 
     public void OnPointerClick(PointerEventData eventData)
     {

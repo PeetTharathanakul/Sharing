@@ -84,7 +84,7 @@ TextureImporter:
       213: -6555032881880210525
     second: next
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -101,11 +101,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -144,13 +145,15 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
-    resizeAlgorithm: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -169,6 +172,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -177,7 +192,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 1488
+        y: 1832
         width: 349
         height: 95
       alignment: 0
@@ -198,7 +213,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 440
-        y: 1485
+        y: 1829
         width: 249
         height: 67
       alignment: 0
@@ -219,7 +234,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 748
-        y: 1485
+        y: 1829
         width: 208
         height: 67
       alignment: 0
@@ -240,7 +255,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 1360
+        y: 1704
         width: 349
         height: 95
       alignment: 0
@@ -261,7 +276,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 441
-        y: 1374
+        y: 1718
         width: 250
         height: 67
       alignment: 0
@@ -282,7 +297,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 746
-        y: 1374
+        y: 1718
         width: 208
         height: 67
       alignment: 0
@@ -303,7 +318,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 1153
+        y: 1497
         width: 329
         height: 72
       alignment: 0
@@ -324,7 +339,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 429
-        y: 1163
+        y: 1507
         width: 236
         height: 52
       alignment: 0
@@ -345,7 +360,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 734
-        y: 1163
+        y: 1507
         width: 196
         height: 52
       alignment: 0
@@ -366,7 +381,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 954
+        y: 1298
         width: 250
         height: 81
       alignment: 0
@@ -387,7 +402,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 318
-        y: 954
+        y: 1298
         width: 250
         height: 81
       alignment: 0
@@ -408,7 +423,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 733
+        y: 1023
         width: 130
         height: 77
       alignment: 0
@@ -429,7 +444,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 204
-        y: 733
+        y: 1023
         width: 130
         height: 77
       alignment: 0
@@ -450,9 +465,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 546
+        y: 781
         width: 697
-        height: 66
+        height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,9 +486,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 807
-        y: 560
+        y: 742
         width: 162
-        height: 32
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,7 +507,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 38
-        y: 441
+        y: 677
         width: 343
         height: 17
       alignment: 0
@@ -513,7 +528,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 205
+        y: 508
         width: 69
         height: 69
       alignment: 0
@@ -534,7 +549,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 209
-        y: 214
+        y: 517
         width: 51
         height: 51
       alignment: 0
@@ -555,7 +570,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 214
+        y: 517
         width: 51
         height: 51
       alignment: 0
@@ -576,7 +591,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 437
-        y: 201
+        y: 503
         width: 78
         height: 78
       alignment: 0
@@ -597,7 +612,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 563
-        y: 201
+        y: 503
         width: 78
         height: 78
       alignment: 0
@@ -618,7 +633,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 55
-        y: 75
+        y: 378
         width: 69
         height: 69
       alignment: 0
@@ -639,7 +654,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 206
-        y: 84
+        y: 387
         width: 51
         height: 51
       alignment: 0
@@ -660,8 +675,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 330
-        y: 70
-        width: 79
+        y: 373
+        width: 78
         height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -681,7 +696,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 457
-        y: 70
+        y: 373
         width: 78
         height: 78
       alignment: 0
@@ -701,10 +716,10 @@ TextureImporter:
       name: previous
       rect:
         serializedVersion: 2
-        x: 626
-        y: 70
-        width: 74
-        height: 79
+        x: 698
+        y: 504
+        width: 75
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +737,10 @@ TextureImporter:
       name: next
       rect:
         serializedVersion: 2
-        x: 769
-        y: 70
-        width: 74
-        height: 79
+        x: 841
+        y: 504
+        width: 75
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,9 +792,8 @@ TextureImporter:
       button_S-disable: 2734676648984014080
       Back button: 2269811687811837114
       button_M-disable: 8924993727728448910
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
