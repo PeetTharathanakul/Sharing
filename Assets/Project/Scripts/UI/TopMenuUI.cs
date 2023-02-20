@@ -52,4 +52,14 @@ public class TopMenuUI : MonoBehaviour
             yield return null;
         }
     }
+
+    public void BuyGold(int value)
+    {
+        GameData.GOLDS += value;
+    }
+
+    public void BuyGems(int value)
+    {
+        GameData.GEMS += value;
+    }
 }

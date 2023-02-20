@@ -47,13 +47,13 @@ public class GameData
     public static int GEMS
     {
         get { return PlayerPrefs.GetInt(KEY_GEMS); }
-        set { PlayerPrefs.SetInt(KEY_GEMS, gems); }
+        set { PlayerPrefs.SetInt(KEY_GEMS, value); }
     }
 
     public static int GOLDS
     {
         get { return PlayerPrefs.GetInt(KEY_GOLD); }
-        set { PlayerPrefs.SetInt(KEY_GOLD, golds); }
+        set { PlayerPrefs.SetInt(KEY_GOLD, value); }
     }
 
     public static int CRYSTAL

@@ -51,10 +51,19 @@ public class ProductDetails : MonoBehaviour
     IEnumerator BuyableCheck()
     {
         BuyButton.interactable = false;
-        while ((CostCheck() < thisproduct.ProductCost) && !thisproduct.isBuy)
+        while (!thisproduct.isBuy)
         {
+            if((CostCheck() < thisproduct.ProductCost))
+            {
+                BuyButton.interactable = false;
+            }
+            else
+            {
+                BuyButton.interactable = true;
+            }
             yield return null;
         }
+
         if(!thisproduct.isBuy)
             BuyButton.interactable = true;
         else
@@ -69,10 +78,10 @@ public class ProductDetails : MonoBehaviour
         switch (thisproduct.ProductCurrency)
         {
             case Currency.Golds:
-                GameData.GOLDS -= thisproduct.ProductCost; 
+                GameData.GOLDS = GameData.GOLDS - thisproduct.ProductCost; 
                 break;
             case Currency.Gems:
-                GameData.GEMS -= thisproduct.ProductCost;
+                GameData.GEMS = GameData.GEMS - thisproduct.ProductCost;
                 break;
             default:
                 break;
