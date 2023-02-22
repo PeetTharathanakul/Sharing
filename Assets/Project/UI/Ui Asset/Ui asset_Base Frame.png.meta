@@ -21,7 +21,7 @@ TextureImporter:
       213: 4809147183388896117
     second: Detail frame small
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -38,11 +38,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -81,6 +82,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +109,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,13 +128,13 @@ TextureImporter:
       name: Base Frame
       rect:
         serializedVersion: 2
-        x: 295
-        y: 2802
-        width: 1805
-        height: 862
+        x: 215
+        y: 4563
+        width: 1806
+        height: 863
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 44, z: 44, w: 46}
+      border: {x: 45, y: 45, z: 45, w: 45}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -134,13 +149,13 @@ TextureImporter:
       name: Detail Frame
       rect:
         serializedVersion: 2
-        x: 293
-        y: 1936
-        width: 1007
-        height: 706
+        x: 215
+        y: 3698
+        width: 1005
+        height: 705
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 22, y: 21, z: 21, w: 23}
+      border: {x: 25, y: 25, z: 25, w: 25}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -152,16 +167,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mode game
+      name: Mode actived
       rect:
         serializedVersion: 2
-        x: 293
-        y: 1174
-        width: 478
-        height: 591
+        x: 747
+        y: 2936
+        width: 472
+        height: 589
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 30, y: 30, z: 60, w: 60}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -173,15 +188,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mode game small
+      name: Mode small active
       rect:
         serializedVersion: 2
-        x: 932
-        y: 1328
-        width: 286
+        x: 2142
+        y: 3407
+        width: 281
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.511846}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,10 +212,10 @@ TextureImporter:
       name: Pop up
       rect:
         serializedVersion: 2
-        x: 1383
-        y: 1304
-        width: 763
-        height: 333
+        x: 1662
+        y: 2126
+        width: 762
+        height: 329
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,13 +230,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gear
+      name: Mode small actived
       rect:
         serializedVersion: 2
-        x: 276
-        y: 778
-        width: 216
-        height: 253
+        x: 2144
+        y: 3093
+        width: 279
+        height: 280
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +254,10 @@ TextureImporter:
       name: Health Boss
       rect:
         serializedVersion: 2
-        x: 769
-        y: 847
-        width: 765
-        height: 101
+        x: 379
+        y: 2626
+        width: 763
+        height: 99
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +275,10 @@ TextureImporter:
       name: skill ingame_icon frame
       rect:
         serializedVersion: 2
-        x: 337
-        y: 469
+        x: 421
+        y: 2234
         width: 139
-        height: 148
+        height: 140
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +296,10 @@ TextureImporter:
       name: Skill Frame
       rect:
         serializedVersion: 2
-        x: 744
-        y: 418
-        width: 240
-        height: 246
+        x: 688
+        y: 2184
+        width: 239
+        height: 242
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +317,10 @@ TextureImporter:
       name: Kaiju frame nonactive
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 453
-        width: 175
-        height: 179
+        x: 1063
+        y: 2215
+        width: 174
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +338,10 @@ TextureImporter:
       name: Kaiju frame active
       rect:
         serializedVersion: 2
-        x: 1570
-        y: 418
-        width: 214
-        height: 251
+        x: 1305
+        y: 2180
+        width: 211
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +359,10 @@ TextureImporter:
       name: special button XL
       rect:
         serializedVersion: 2
-        x: 322
-        y: 95
-        width: 354
-        height: 104
+        x: 408
+        y: 1780
+        width: 353
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +380,10 @@ TextureImporter:
       name: special button M
       rect:
         serializedVersion: 2
-        x: 731
-        y: 109
-        width: 255
-        height: 73
+        x: 816
+        y: 1793
+        width: 253
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +401,10 @@ TextureImporter:
       name: special button S
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 109
-        width: 218
-        height: 74
+        x: 1115
+        y: 1793
+        width: 212
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,22 +419,64 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Detail frame small
+      name: Mode active
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 1935
-        width: 605
-        height: 708
+        x: 220
+        y: 2936
+        width: 472
+        height: 589
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 21, y: 21, z: 24, w: 25}
+      border: {x: 30, y: 30, z: 60, w: 60}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 57b277222e58db240800000000000000
       internalID: 4809147183388896117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mode nonactive
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 2936
+        width: 472
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 30, y: 30, z: 60, w: 60}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a3aa3df132747cfa2c0d2ea2bc0b52
+      internalID: 1911913285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mode small nonactive
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2773
+        width: 281
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c1fc6123394fb691b2e3203b92371
+      internalID: -1340671076
       vertices: []
       indices: 
       edges: []
@@ -435,24 +492,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mode game small: 5489826009916337686
+      Mode active: 4809147183388896117
       Base Frame: -2734213745085151698
       Skill Frame: 9158142606405252219
       Kaiju frame nonactive: -401193268779146508
-      Detail frame small: 4809147183388896117
       special button M: -5753110351579329664
-      Mode game: 4223368377394776334
+      Mode small nonactive: -1340671076
+      Mode actived: 4223368377394776334
       special button XL: -6093857966501863202
+      Mode small active: 5489826009916337686
       special button S: 7923507174155500452
       Pop up: -6240561656928618023
-      Gear: -6127303196336870382
+      Mode small actived: -6127303196336870382
       Detail Frame: 5560013068929528938
       skill ingame_icon frame: 2597060991767745461
       Health Boss: 6119941844776712526
+      Mode nonactive: 1911913285
       Kaiju frame active: -34610726807966581
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
