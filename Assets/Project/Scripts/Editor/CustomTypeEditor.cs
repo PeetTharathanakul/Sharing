@@ -21,7 +21,7 @@ public class CustomTypeEditor : Editor
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("itemconsume"));
                 break;
             case Items.ItemType.Gear:
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("itemcgear"));
+                EditorGUILayout.PropertyField(serializedObject.FindProperty("itemgear"));
                 break;
         }
 
