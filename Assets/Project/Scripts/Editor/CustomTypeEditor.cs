@@ -13,6 +13,11 @@ public class CustomTypeEditor : Editor
 
         Items type = (Items)target;
 
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("Name"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("ItemSprite"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("Description"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("Value"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("Rate"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("itemtype"));
 
         switch (type.itemtype)
