@@ -33,6 +33,7 @@ public class Items : ScriptableObject
     [System.Serializable]
     public class Gear
     {
+        public int Rank;
         public status[] stat;
     }
 }
