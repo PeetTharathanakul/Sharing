@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12034f94be4c4f11ae506d5be9c14bb, type: 3}
   m_Name: p3
   m_EditorClassIdentifier: 
-  Name: Bundle1
+  Name: Bundle3
   ProductItem: {fileID: 11400000, guid: 7a8d2e00114df1742aa545e1b302c9f3, type: 2}
   isBuy: 0
   ProductValue: 16
-  ProductAmount: 1
+  ProductAmount: 3
   ProductCurrency: 0
   ProductCost: 200
