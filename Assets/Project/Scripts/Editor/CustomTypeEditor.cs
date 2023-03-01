@@ -22,8 +22,8 @@ public class CustomTypeEditor : Editor
 
         switch (type.itemtype)
         {
-            case Items.ItemType.Consume:
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("itemconsume"));
+            case Items.ItemType.Supplies:
+                EditorGUILayout.PropertyField(serializedObject.FindProperty("itemsupplies"));
                 break;
             case Items.ItemType.Gear:
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("itemgear"));

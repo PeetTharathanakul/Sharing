@@ -12,21 +12,21 @@ public class Items : ScriptableObject
     public int Value;
     public Rarity Rate;
     public ItemType itemtype;
-    public Consume itemconsume;
+    public Supplies itemsupplies;
     public Gear itemgear;
 
     public enum ItemType
     {
         None,
-        Consume,
+        Supplies,
         Gear,
         Material
     }
 
     [System.Serializable]
-    public class Consume
+    public class Supplies
     {
-        public string ConsumeType;
+        public Items SuppliesType;
         public int Value;
     }
 
@@ -44,8 +44,8 @@ public enum Rarity
     Common,
     Uncommon,
     Rare,
-    SuperRare,
-    UltraRare
+    Epic,
+    Legendary
 }
 
 [System.Serializable]

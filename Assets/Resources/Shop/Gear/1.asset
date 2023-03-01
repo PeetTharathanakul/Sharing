@@ -17,9 +17,12 @@ MonoBehaviour:
   Description: item 1
   Value: 5
   Rate: 0
-  itemtype: 1
-  itemconsume:
-    ConsumeType: 
+  itemtype: 2
+  itemsupplies:
+    SuppliesType: {fileID: 0}
     Value: 0
   itemgear:
-    stat: []
+    Rank: 1
+    stat:
+    - Stat: Atk
+      Value: 5

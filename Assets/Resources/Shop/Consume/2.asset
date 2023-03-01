@@ -16,3 +16,11 @@ MonoBehaviour:
   ItemSprite: {fileID: 21300000, guid: 0029170d14ce6c04c9f45c22cdae5559, type: 3}
   Description: item2
   Value: 6
+  Rate: 0
+  itemtype: 1
+  itemconsume:
+    ConsumeType: B
+    Value: 20
+  itemgear:
+    Rank: 0
+    stat: []
