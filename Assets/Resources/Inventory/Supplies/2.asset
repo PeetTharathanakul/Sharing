@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: i2
   ItemSprite: {fileID: 21300000, guid: 0029170d14ce6c04c9f45c22cdae5559, type: 3}
-  Description: item2
-  Value: 6
-  Rate: 0
+  Description: Supplies 2
+  Value: 21
+  Rate: 4
   itemtype: 1
-  itemconsume:
-    ConsumeType: B
+  itemsupplies:
+    SuppliesType: {fileID: 11400000, guid: e2c1b3ae21540486ea9bf8c2069253d9, type: 2}
     Value: 20
   itemgear:
     Rank: 0

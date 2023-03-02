@@ -7,6 +7,8 @@ using TMPro;
 public class InventoryDetails : MonoBehaviour
 {
     public Items thisitems;
+    public GameObject blog;
+    public static InventoryDetails current;
 
     [Header("UI")]
     public Image itemsprite;
@@ -14,8 +16,14 @@ public class InventoryDetails : MonoBehaviour
     public TextMeshProUGUI itemdescription;
     public TextMeshProUGUI itemvalue;
 
+    private void Awake()
+    {
+        current = this;
+    }
+
     public void SetDetails(Items setitem)
     {
+        blog.SetActive(true);
         thisitems = setitem;
         itemsprite.sprite = thisitems.ItemSprite;
         itemname.text = thisitems.Name;

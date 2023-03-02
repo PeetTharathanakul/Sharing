@@ -24,17 +24,14 @@ public class InventoryController : MonoBehaviour
     private void Awake()
     {
         current = this;
-        SuppliesList.AddRange(Resources.LoadAll<Items>("Shop/Consume"));
-        GearList.AddRange(Resources.LoadAll<Items>("Shop/Gear"));
-        MatList.AddRange(Resources.LoadAll<Items>("Shop/Materials"));
+        SuppliesList.AddRange(Resources.LoadAll<Items>("Inventory/Supplies"));
+        GearList.AddRange(Resources.LoadAll<Items>("Inventory/Gear"));
+        MatList.AddRange(Resources.LoadAll<Items>("Inventory/Materials"));
         SetInventory(SuppliesList);
         SetInventory(GearList);
         SetInventory(MatList);
-    }
-
-    void Start()
-    {
-        
+        content[1].SetActive(false);
+        content[2].SetActive(false);
     }
 
     public void SetInventory(List<Items> thislist)
@@ -63,13 +60,20 @@ public class InventoryController : MonoBehaviour
             {
                 r = Instantiate(ItemPrefab, content[set].transform);
                 r.transform.parent = content[set].transform;
+                r.TryGetComponent<InventoryItem>(out InventoryItem c);
+                c.thisitem = thislist[i];
                 objlist.Add(r);
             }
         }
     }
 
-    public void ShowInventory()
+    public void ShowInventory(int thisinv)
     {
+        for (int i = 0; i < content.Length; i++)
+        {
+            content[i].SetActive(false);
+        }
 
+        content[thisinv].SetActive(true);
     }
 }

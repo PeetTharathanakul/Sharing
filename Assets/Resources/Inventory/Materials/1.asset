@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: i1
   ItemSprite: {fileID: 21300000, guid: affeade9874cf2347abb155e8d0db4d8, type: 3}
-  Description: item 1
-  Value: 5
-  Rate: 0
-  itemtype: 1
+  Description: Mat 1
+  Value: 9
+  Rate: 2
+  itemtype: 3
   itemsupplies:
     SuppliesType: {fileID: 0}
     Value: 0
