@@ -1,0 +1,88 @@
+using System.Collections.Generic;
+
+namespace KaiJuGame
+{
+    public enum EffectType
+    {
+        TAP,
+        TAP_EXTRA,
+        AUTO,
+        AUTO_EXTRA,
+        BULLETS,
+        TEXT_DAMAGED,
+        BOMB
+    }
+    public enum GameStage
+    {
+        NONE,
+        INIT,
+        SKILL,
+        BATTLE,
+        REST,
+        DECIDE,
+        PASS,
+        VICTORY,
+        LOSE
+    }
+
+    public enum Rarity { CM, UN_CM, RARE, EPIC, LG }
+
+    public enum AnimationBehevior
+    {
+        idle,
+        attack,
+        skill,
+        damaged,
+        dead
+    }
+
+    public enum GachaType { CHAR, ITEM };
+
+    public interface IDamage
+    {
+        void Damage(float dmg);
+    }
+    public enum FACTION
+    {
+        PLAYER,
+        ENEMY,
+        BUILDING,
+        FUEL
+    }
+
+    public enum LevelType
+    {
+        KAIJU,
+        DARKLOD,
+    }
+    public enum StateSelect { NONE, SELECT, DEPLOY }
+
+    public enum BaseMajor
+    {
+        Tank,
+        Support,
+        P_DPS,
+        M_DPS
+    }
+
+    public enum Stats
+    {
+       experiences,
+       character
+    }
+
+    [System.Serializable]
+    public class LevelSetting
+    {
+        public List<float> listValue;
+    }
+
+    public interface IProgression
+    {
+        float ATK();
+        float DEF();
+        BaseMajor BaseMajor();
+    }
+
+    public enum SkillPos { head, body, feet }
+}
