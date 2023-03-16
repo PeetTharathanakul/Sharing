@@ -46,8 +46,9 @@ public class KaiJuBase : ScriptableObject
     [SerializeField] float level;
 
     [Header("Rate")]
-    [SerializeField] Rarity Rare;
-    [SerializeField] float Rank;
+    [SerializeField] public Rarity Rare;
+    [SerializeField] public int Rank;
+    [SerializeField] public Sprite thissprite;
 
     public string Name { get => name; set => name = value; }
 
