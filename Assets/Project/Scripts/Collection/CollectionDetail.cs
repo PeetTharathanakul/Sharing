@@ -17,10 +17,10 @@ public class CollectionDetail : MonoBehaviour
 
     void Start()
     {
-        Setdetail();
+        //Setdetail();
     }
 
-    void Setdetail()
+    public void Setdetail()
     {
         CharSprite.sprite = thisBase.thissprite;
         switch (thisBase.Rare)
@@ -44,5 +44,6 @@ public class CollectionDetail : MonoBehaviour
                 break;
         }
         CharRank.sprite = RankSet[thisBase.Rank - 1];
+        CharRank.SetNativeSize();
     }
 }

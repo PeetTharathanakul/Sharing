@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a0e73f591d9cea4ea518aff72ae11d6, type: 3}
-  m_Name: ALIGATUS_STATS
+  m_Name: 2
   m_EditorClassIdentifier: 
   major: 0
   faction: 0
   kaijuName: 
   maxHp: 0
-  pAtk: 100
+  pAtk: 150
   pDef: 0
-  mAtk: 100
+  mAtk: 150
   mDef: 0
-  dodge: 50
+  dodge: 150
   cri: 10
   atk_spd: 5
-  speed: 100
+  speed: 0
   spGear: 0
   gear: 0
   level: 0
-  Rare: 0
-  Rank: 1
-  thissprite: {fileID: 21300000, guid: e5600378dd761e64d9423790c482bf36, type: 3}
+  Rare: 1
+  Rank: 2
+  thissprite: {fileID: 21300000, guid: 70632ddfe8e71b04b8f90ef7e29a9e98, type: 3}

@@ -25,6 +25,15 @@ namespace KaiJuGame
         LOSE
     }
 
+    public enum BaseMajor
+    {
+        Gradiator,
+        Destroyer,
+        Feather,
+        Enemy_T,
+        Enemy_H
+    }
+
     public enum Rarity { CM, UN_CM, RARE, EPIC, LG }
 
     public enum AnimationBehevior
@@ -56,14 +65,6 @@ namespace KaiJuGame
         DARKLOD,
     }
     public enum StateSelect { NONE, SELECT, DEPLOY }
-
-    public enum BaseMajor
-    {
-        Tank,
-        Support,
-        P_DPS,
-        M_DPS
-    }
 
     public enum Stats
     {

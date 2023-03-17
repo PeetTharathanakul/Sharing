@@ -6,31 +6,24 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Kaiju", menuName = "Create Stats")]
 public class KaiJuBase : ScriptableObject
 {
+    [SerializeField] BaseMajor major;
     [SerializeField] FACTION faction;
     [Header("Name")]
-    [SerializeField] private string name;
+    [SerializeField] private string kaijuName;
 
     [Space(10)]
     [Header("Health")]
     [SerializeField] float maxHp;
 
     [Space(10)]
-    [Header("Bonus")]
-    [SerializeField] float bonusHp;
-    [SerializeField] float bonus_p_atk;
-    [SerializeField] float bonus_m_atk;
-    [SerializeField] float bonus_p_def;
-    [SerializeField] float bonus_m_def;
-
-    [Space(10)]
     [Header("Stats")]
-    [SerializeField] float p_atk;
-    [SerializeField] float p_def;
-    [SerializeField] float m_atk;
-    [SerializeField] float m_def;
+    [SerializeField] float pAtk;
+    [SerializeField] float pDef;
+    [SerializeField] float mAtk;
+    [SerializeField] float mDef;
     [SerializeField] float dodge;
-    [SerializeField] float hit = 100;
     [SerializeField] float cri = 10;
+    [SerializeField] float atk_spd;
 
     [Space(10)]
     [Header("Ability")]
@@ -50,116 +43,55 @@ public class KaiJuBase : ScriptableObject
     [SerializeField] public int Rank;
     [SerializeField] public Sprite thissprite;
 
-    public string Name { get => name; set => name = value; }
+    public string Name { get => kaijuName; set => kaijuName = value; }
 
     public float MaxHp
     {
         get => maxHp;
         set => maxHp = value;
     }
-    public float Attack { get => p_atk; set => p_atk = value; }
-    public float Defense { get => p_def; set => p_def = value; }
-    public float SpAttack { get => m_atk; set => m_atk = value; }
-    public float SpDefense { get => m_def; set => m_def = value; }
-    public float Dodge { get => faction == FACTION.PLAYER ? dodge: 1; set => dodge = value; }
-    public bool IsSpAttack
-    {
-        get
-        {
-            return m_atk > 0;
-        }
-    }
+    public float Attack { get => pAtk; set => pAtk = value; }
+    public float Defense { get => pDef; set => pDef = value; }
+    public float SpAttack { get => mAtk; set => mAtk = value; }
+    public float SpDefense { get => mDef; set => mDef = value; }
+    public float Dodge { get => dodge; set => dodge = value; }
+    public float Armor { get => gear; set => gear = value; }
+    public float ATK_SPD { get => atk_spd; set => atk_spd = value; }
 
-    public bool IsSpDefense
-    {
-        get
-        {
-            return m_def > 0;
-        }
-    }
+    public bool IsSpAttack => mAtk > 0;
+
+    public bool IsSpDefense => mDef > 0;
+
     public float Critical { get => cri; set => cri = value; }
     public float Speed { get => speed; set => speed = value; }
-    public float BaseHp { get => bonusHp; set => bonusHp = value; }
     public float Level { get => level; set => level = value; }
-    public float Accuracy { get => hit; set => hit = value; }
+    public BaseMajor Major { get => major; set => major = value; }
 
-    public bool CheckHitPercentage(KaiJuBase opponent, KaiJuBase attacker)
+    public bool IsReadyDoge()
     {
-        var total = attacker.Accuracy - opponent.Dodge;
-        int rnd = Random.Range(1, Mathf.RoundToInt(total));
-
-        Debug.Log("rnd  " + rnd + "  acc  " + attacker.Accuracy + "dodge   " + opponent.Dodge + "  cal " + Mathf.RoundToInt(total));
-        if (total <= 0)
-        {
-            Debug.Log("zero chance %  ");
-            return Random.Range(0, 3) <= 1;
-        }        
-        return true;
+        int rnd = Random.Range(1, 100);
+        Debug.Log("Dodge random  " + rnd + " >  " + (100 - dodge));
+        return rnd > (100 - dodge);
     }
 
-    public float GetDefense(KaiJuBase opponent, KaiJuBase attacker)
+    public bool IsReadyCritical()
     {
-        if (attacker.IsSpAttack)
-        {
-            return opponent.m_def <= 0 ? opponent.p_def / 1.1f : opponent.m_def;
-        }
-        return opponent.p_def;
+        int rnd = Random.Range(1, 100);
+        Debug.Log("Cri random  " + rnd + " >  "  + (100 - cri));
+        return rnd > (100 - cri);
     }
 
-    public float GetAttack(KaiJuBase opponent, KaiJuBase attacker)
+    public float GetDefense()
     {
-        if (opponent.IsSpAttack)
-        {
-            return attacker.m_atk <= 0 ? attacker.p_atk / 1.1f : attacker.m_atk;
-        }
-        return attacker.p_atk;
+        // P.ATK(1.0) + rand(1, (P.ATK(0.85) / 20))
+        return IsSpDefense? mDef + Random.Range(1, ((pDef * 0.85f) / 20)) : pDef + Random.Range(1, ((pDef * 0.85f) / 20));
     }
 
-    private bool TryToHit(KaiJuBase opp, KaiJuBase attacker)
+    public float GetAttack(KaiJuBase attacker)
     {
-        var a_hit = attacker.hit;
-        var b_dodge = opp.dodge;
-        var rate = a_hit - b_dodge;
-        var rand = Random.Range(1, 100);
-        Debug.Log("ran   " + rand + " a   " + a_hit + "b   " + b_dodge + " rate   " + rate);
-        if (rand <= rate)
-        {
-            return true;
-        }
-       
-        return false;
+        // P.ATK(1.0) + rand(1, (P.ATK(0.85) / 20))
+        return attacker.IsSpAttack ? attacker.mAtk + Random.Range(1, ((attacker.pAtk * 0.85f) / 20)) : attacker.pAtk + Random.Range(1,((attacker.pAtk * 0.85f) / 20));
     }
-
-
-    public float TakeDamage(KaiJuBase opponent, KaiJuBase attacker, bool isDark = false)
-    {
-        var atk = GetAttack(opponent,attacker);
-        var def = GetDefense(opponent,attacker);
-
-        float attack = opponent.IsSpAttack ? attacker.SpAttack : attacker.Attack;
-        float defense = opponent.IsSpAttack ? opponent.SpDefense : opponent.Defense;
-        float modifiers = Random.Range(1, 51);
-        float a = (atk - def);
-        int damage = Mathf.FloorToInt((a * modifiers * 1)/100);
-        Debug.Log("calcurator of" + " Defender "+ opponent.Name + " VS "+  " Attacker " + attacker.Name + "ATK : " + atk + "   " + "DEF : " + def + " = " + a * modifiers * 1);
-
-        if (!isDark)
-        {
-            if (!TryToHit(opponent, attacker))
-            {
-                return 0;
-            }
-        }
-
-
-        return damage;
-    }
-
-
-    private float GetDarklod(float value)
-    {
-        return Random.Range(value / 2, value);
-    }   
 
     [ContextMenu("CreateLevelGrowth")]
     public int FormulaLevelExponent(int level)
@@ -170,35 +102,37 @@ public class KaiJuBase : ScriptableObject
         return absolute;
     }
 
-    public int CP
-    {
-        get
-        {
-            var P1 = (m_atk * 1.5f) + (1 + (Accuracy - 45) + maxHp) + (1 + p_def) + (1 + m_def);
-            //Debug.Log($" {(spAttack * 1.5f)} + {(1 + (accuracy - 45) + maxHp)} + {(1 + defense)} + {(1 + spDefense) } = {P1/4}");
-            //var P2 = Mathf.FloorToInt(1 + spGear + gear + 1 + gear + 2 + gear + 3 + skillLevel);
-            return (int)(P1/4);
-        }
-    }
-
-    public bool IsCritical()
-    {
-        return Random.Range(0, 100) < 10;
-    }
-
+    public float CP => IsSpAttack? (mAtk* 60 * ((atk_spd) / 100)) * 0.001f: (pAtk* 60 * ((atk_spd) / 100)) * 0.001f;
+  
     public float GetSkillLevel(int skLv)
     {
         Dictionary<int, float> keySkill = new Dictionary<int, float>();
         return keySkill[skLv];
     }
-    //base stats
+
+    public int DamageCalcurate(KaiJuBase attacker, bool isDark = false)
+    {
+        if (IsReadyDoge())
+        {
+            Debug.Log("Miss ");
+            return 0;
+        }
+        else
+        {
+            var atk = GetAttack(attacker);
+            var def = GetDefense();
+            float modifiers = atk - def;
+            int damage = Mathf.FloorToInt(modifiers);
+            Debug.Log("calcurator of" + " Defender " + Name + " VS " + " Attacker " + attacker.Name + "ATK : " + atk + "   " + "DEF : " + def + " = " + modifiers);
+
+            return IsReadyCritical() ? damage *= 2:damage;
+        }
+    }
+
+    public float GetEXP(KaiJuBase attacker)
+    {
+        float atk = GetAttack(attacker);
+
+        return (atk * 60 * ((ATK_SPD) / 100)) * 0.001f;
+    }
 }
-
-
-
-
-
-
-
-
-
