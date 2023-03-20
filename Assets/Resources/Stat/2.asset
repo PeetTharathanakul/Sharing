@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   major: 0
   faction: 0
-  kaijuName: 
+  kaijuName: 1
   maxHp: 0
   pAtk: 150
   pDef: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   speed: 0
   spGear: 0
   gear: 0
-  level: 0
+  level: 14
   Rare: 1
   Rank: 2
-  thissprite: {fileID: 21300000, guid: 70632ddfe8e71b04b8f90ef7e29a9e98, type: 3}
+  thissprite: {fileID: 21300000, guid: cc79f70071f2f42fd8db760380355d24, type: 3}

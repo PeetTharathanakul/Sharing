@@ -8,7 +8,7 @@ public class CollectionController : MonoBehaviour
     public List<KaiJuBase> StatList;
     public List<GameObject> CollectList;
 
-    public GameObject Collection;
+    //public GameObject Collection;
     public GameObject Content;
     public GameObject CollectPrefab;
     private GameObject c;
@@ -44,10 +44,17 @@ public class CollectionController : MonoBehaviour
         }
     }
 
-    public void Sorting()
+    public void Sorting(string Sort)
     {
-        List<KaiJuBase> l;
-        l = StatList.OrderByDescending(StatList => StatList.CP).ToList();
+        List<KaiJuBase> l = null;
+        if(Sort == "CP")
+            l = StatList.OrderByDescending(StatList => StatList.CP).ToList();
+        else if(Sort == "Lv")
+            l = StatList.OrderByDescending(StatList => StatList.Level).ToList();
+        else if(Sort == "Rare")
+            l = StatList.OrderByDescending(StatList => StatList.Rare).ToList();
+        else if(Sort == "Star")
+            l = StatList.OrderByDescending(StatList => StatList.Rank).ToList();
         StatList = l;
 
         for (int i = 0; i < StatList.Count; i++)

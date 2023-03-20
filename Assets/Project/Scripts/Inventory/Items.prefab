@@ -93,11 +93,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thisitem: {fileID: 0}
   itemframe:
-  - {fileID: -291643418896275074, guid: 7bd0d21e7cdf042ccb94d3fa7f180347, type: 3}
-  - {fileID: 7923438066032794254, guid: 7bd0d21e7cdf042ccb94d3fa7f180347, type: 3}
-  - {fileID: 6476526566550101366, guid: 7bd0d21e7cdf042ccb94d3fa7f180347, type: 3}
-  - {fileID: -4851027527688182568, guid: 7bd0d21e7cdf042ccb94d3fa7f180347, type: 3}
-  - {fileID: 7223754668604931126, guid: 7bd0d21e7cdf042ccb94d3fa7f180347, type: 3}
+  - {fileID: 5223370693312396623, guid: 5e3268e2fa8ef4349ba8a2217ed3ae1f, type: 3}
+  - {fileID: 2955297733908575915, guid: 5e3268e2fa8ef4349ba8a2217ed3ae1f, type: 3}
+  - {fileID: 141063693582682956, guid: 5e3268e2fa8ef4349ba8a2217ed3ae1f, type: 3}
+  - {fileID: 3567876534770325076, guid: 5e3268e2fa8ef4349ba8a2217ed3ae1f, type: 3}
+  - {fileID: 2296321019496089666, guid: 5e3268e2fa8ef4349ba8a2217ed3ae1f, type: 3}
   thisframe: {fileID: 405234252523859781}
   itemsprite: {fileID: 2422608841382933409}
   itemvalue: {fileID: 5186251100807253140}
