@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: i1
   ItemSprite: {fileID: 21300000, guid: affeade9874cf2347abb155e8d0db4d8, type: 3}
-  Description: Supplie 1
+  Description: get m1 10pcs
   Value: 5
   Rate: 3
   itemtype: 1

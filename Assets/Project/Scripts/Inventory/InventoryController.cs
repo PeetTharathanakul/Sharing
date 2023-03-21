@@ -28,8 +28,8 @@ public class InventoryController : MonoBehaviour
         GearList.AddRange(Resources.LoadAll<Items>("Inventory/Gear"));
         MatList.AddRange(Resources.LoadAll<Items>("Inventory/Materials"));
         SetInventory(SuppliesList);
-        SetInventory(GearList);
         SetInventory(MatList);
+        SetInventory(GearList);
         content[1].SetActive(false);
         content[2].SetActive(false);
     }
@@ -46,12 +46,12 @@ public class InventoryController : MonoBehaviour
         else if(thislist == GearList)
         {
             objlist = GearObj;
-            set = 1;
+            set = 2;
         }
         else
         {
             objlist = MatObj;
-            set = 2;
+            set = 1;
         }
 
         for (int i = 0; i < thislist.Count; i++)

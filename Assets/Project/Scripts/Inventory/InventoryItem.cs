@@ -20,7 +20,13 @@ public class InventoryItem : MonoBehaviour
         thisbutton = gameObject.GetComponent<Button>();
         SetDetail();
         thisbutton.onClick.AddListener(() => InventoryDetails.current.SetDetails(thisitem));
-    } 
+    }
+
+    private void OnEnable()
+    {
+        if(thisitem)
+            StartCoroutine(ValueUpdate());
+    }
 
     private void SetDetail()
     {

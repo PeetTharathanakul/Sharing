@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8466454a2457b4410b86c7fb3e312c9b, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  Name: i1
+  Name: g1
   ItemSprite: {fileID: 21300000, guid: affeade9874cf2347abb155e8d0db4d8, type: 3}
   Description: Gear 1
   Value: 5
