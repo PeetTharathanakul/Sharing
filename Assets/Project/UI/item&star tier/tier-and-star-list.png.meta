@@ -132,7 +132,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 2
@@ -178,7 +178,7 @@ TextureImporter:
         width: 117
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: tier-and-star-list_1
       rect:
         serializedVersion: 2
-        x: 1041
+        x: 1044
         y: 931
         width: 116
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,7 +220,7 @@ TextureImporter:
         width: 116
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,7 +241,7 @@ TextureImporter:
         width: 116
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: tier-and-star-list_4
       rect:
         serializedVersion: 2
-        x: 2486
-        y: 931
+        x: 2496
+        y: 932
         width: 116
-        height: 117
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: tier-and-star-list_5
       rect:
         serializedVersion: 2
-        x: 223
-        y: 808
-        width: 30
+        x: 217
+        y: 944
+        width: 29
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: tier-and-star-list_6
       rect:
         serializedVersion: 2
-        x: 548
-        y: 680
+        x: 553
+        y: 667
         width: 162
-        height: 162
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: tier-and-star-list_7
       rect:
         serializedVersion: 2
-        x: 1019
-        y: 680
+        x: 1018
+        y: 667
         width: 161
-        height: 162
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,11 +342,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1493
-        y: 680
+        y: 669
         width: 161
-        height: 162
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,11 +363,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1984
-        y: 680
+        y: 669
         width: 161
-        height: 162
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: tier-and-star-list_10
       rect:
         serializedVersion: 2
-        x: 2464
-        y: 680
-        width: 162
+        x: 2474
+        y: 671
+        width: 161
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: tier-and-star-list_11
       rect:
         serializedVersion: 2
-        x: 213
-        y: 726
+        x: 215
+        y: 819
         width: 50
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: tier-and-star-list_12
       rect:
         serializedVersion: 2
-        x: 203
-        y: 644
+        x: 215
+        y: 691
         width: 69
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: tier-and-star-list_13
       rect:
         serializedVersion: 2
-        x: 194
-        y: 562
-        width: 88
-        height: 30
+        x: 214
+        y: 563
+        width: 91
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,7 +472,7 @@ TextureImporter:
         width: 359
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,7 +493,7 @@ TextureImporter:
         width: 359
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,7 +514,7 @@ TextureImporter:
         width: 359
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,7 +535,7 @@ TextureImporter:
         width: 359
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,12 +551,12 @@ TextureImporter:
       name: tier-and-star-list_18
       rect:
         serializedVersion: 2
-        x: 2365
+        x: 2375
         y: 220
-        width: 358
+        width: 359
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: tier-and-star-list_19
       rect:
         serializedVersion: 2
-        x: 184
-        y: 479
-        width: 108
-        height: 31
+        x: 214
+        y: 434
+        width: 110
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,12 +593,12 @@ TextureImporter:
       name: tier-and-star-list_20
       rect:
         serializedVersion: 2
-        x: 174
-        y: 397
-        width: 128
-        height: 31
+        x: 214
+        y: 308
+        width: 130
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -606,6 +606,69 @@ TextureImporter:
       bones: []
       spriteID: e49e6aad6000a69b0800000000000000
       internalID: -5086252799723378354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tier-and-star-list_21
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 931
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d09d9a27a1b4148b4ceb3a12da9b7d
+      internalID: -993303091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tier-and-star-list_22
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 670
+        width: 163
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53994ff1816eb4df49f83677383b8de8
+      internalID: 715811598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tier-and-star-list_23
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 245
+        width: 286
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6676f31275e1f4e42acfc6391effd058
+      internalID: 208851770
       vertices: []
       indices: 
       edges: []
@@ -622,6 +685,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tier-and-star-list_20: -5086252799723378354
+      tier-and-star-list_23: 208851770
       tier-and-star-list_0: -291643418896275074
       tier-and-star-list_2: 6476526566550101366
       tier-and-star-list_11: -8276200636322519106
@@ -629,11 +693,13 @@ TextureImporter:
       tier-and-star-list_19: 1661007917908891469
       tier-and-star-list_1: 7923438066032794254
       tier-and-star-list_7: -2450848479670142185
+      tier-and-star-list_22: 715811598
       tier-and-star-list_13: -1679840633338255844
       tier-and-star-list_5: -9077263676549667872
       tier-and-star-list_15: 4644008752336385139
       tier-and-star-list_17: -4652959074794084571
       tier-and-star-list_16: 315975192309985876
+      tier-and-star-list_21: -993303091
       tier-and-star-list_10: 5698593664912254098
       tier-and-star-list_9: 6368777260658923997
       tier-and-star-list_18: -913452014353004585

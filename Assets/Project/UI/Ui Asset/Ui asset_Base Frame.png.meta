@@ -128,10 +128,10 @@ TextureImporter:
       name: Base Frame
       rect:
         serializedVersion: 2
-        x: 215
-        y: 4563
-        width: 1806
-        height: 863
+        x: 216
+        y: 4990
+        width: 1804
+        height: 862
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 45, y: 45, z: 45, w: 45}
@@ -149,10 +149,10 @@ TextureImporter:
       name: Detail Frame
       rect:
         serializedVersion: 2
-        x: 215
-        y: 3698
-        width: 1005
-        height: 705
+        x: 216
+        y: 4124
+        width: 1004
+        height: 704
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 25, y: 25, z: 25, w: 25}
@@ -171,9 +171,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 747
-        y: 2936
-        width: 472
-        height: 589
+        y: 3364
+        width: 473
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 30, y: 30, z: 60, w: 60}
@@ -192,9 +192,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2142
-        y: 3407
-        width: 281
-        height: 282
+        y: 3834
+        width: 280
+        height: 280
       alignment: 9
       pivot: {x: 0.5000004, y: 0.511846}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: Pop up
       rect:
         serializedVersion: 2
-        x: 1662
-        y: 2126
+        x: 1688
+        y: 2551
         width: 762
-        height: 329
+        height: 330
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,9 +233,9 @@ TextureImporter:
       name: Mode small actived
       rect:
         serializedVersion: 2
-        x: 2144
-        y: 3093
-        width: 279
+        x: 2142
+        y: 3519
+        width: 280
         height: 280
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Health Boss
       rect:
         serializedVersion: 2
-        x: 379
-        y: 2626
-        width: 763
-        height: 99
+        x: 380
+        y: 3053
+        width: 762
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,8 +275,8 @@ TextureImporter:
       name: skill ingame_icon frame
       rect:
         serializedVersion: 2
-        x: 421
-        y: 2234
+        x: 422
+        y: 2661
         width: 139
         height: 140
       alignment: 0
@@ -296,9 +296,9 @@ TextureImporter:
       name: Skill Frame
       rect:
         serializedVersion: 2
-        x: 688
-        y: 2184
-        width: 239
+        x: 689
+        y: 2610
+        width: 238
         height: 242
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -318,8 +318,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1063
-        y: 2215
-        width: 174
+        y: 2642
+        width: 173
         height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -338,10 +338,10 @@ TextureImporter:
       name: Kaiju frame active
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 2180
-        width: 211
-        height: 250
+        x: 1306
+        y: 2607
+        width: 210
+        height: 249
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,8 +359,8 @@ TextureImporter:
       name: special button XL
       rect:
         serializedVersion: 2
-        x: 408
-        y: 1780
+        x: 407
+        y: 2205
         width: 353
         height: 98
       alignment: 0
@@ -380,10 +380,10 @@ TextureImporter:
       name: special button M
       rect:
         serializedVersion: 2
-        x: 816
-        y: 1793
-        width: 253
-        height: 70
+        x: 817
+        y: 2219
+        width: 252
+        height: 71
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +401,10 @@ TextureImporter:
       name: special button S
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 1793
-        width: 212
-        height: 70
+        x: 1116
+        y: 2219
+        width: 210
+        height: 71
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: Mode active
       rect:
         serializedVersion: 2
-        x: 220
-        y: 2936
+        x: 221
+        y: 3364
         width: 472
-        height: 589
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 30, y: 30, z: 60, w: 60}
@@ -444,11 +444,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1274
-        y: 2936
-        width: 472
+        y: 3362
+        width: 473
         height: 589
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 30, y: 30, z: 60, w: 60}
       outline: []
       physicsShape: []
@@ -465,11 +465,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2142
-        y: 2773
-        width: 281
+        y: 3199
+        width: 280
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,6 +477,258 @@ TextureImporter:
       bones: []
       spriteID: f55c1fc6123394fb691b2e3203b92371
       internalID: -1340671076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_0
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 94
+        width: 620
+        height: 707
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8f400fd97774d8bbe419d6c4a959ac
+      internalID: 1087579343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 653
+        width: 828
+        height: 879
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f881834b7c7456ebf81b74529ca239
+      internalID: -837264256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1354
+        width: 513
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f989da48503594d67b439c8f0b645c7f
+      internalID: -1696270811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_3
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1234
+        width: 513
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b1d2e5b7bec479fab672943e8ca04f
+      internalID: -534223185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_4
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 940
+        width: 762
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 40, z: 30, w: 40}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a6f46f1c5d44497921e8610de8e246
+      internalID: 742272466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_5
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 631
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b654bd0d2e0eb49239b78c44bcecb189
+      internalID: 1628793785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_6
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 631
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ad6e210214e418ea3fd80864ceb544
+      internalID: 1904658965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_7
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 462
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebdf8959a64344d2aff19b3b15c8faf
+      internalID: -896913101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_8
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 462
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a2a144c70c644ac9aece9f6d42d16e
+      internalID: -1174752058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_9
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 120
+        width: 245
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809aaebc99e8642bcb8014c7d5f5bb17
+      internalID: 2005323472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_10
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 149
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac1b3a1f607e4766a6c5e5be4484a3d
+      internalID: -701458633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Base Frame_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 126
+        width: 209
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1634b79d6de479479fe16ce57a45c32
+      internalID: -1821675481
       vertices: []
       indices: 
       edges: []
@@ -497,17 +749,29 @@ TextureImporter:
       Skill Frame: 9158142606405252219
       Kaiju frame nonactive: -401193268779146508
       special button M: -5753110351579329664
+      Ui asset_Base Frame_3: -534223185
       Mode small nonactive: -1340671076
       Mode actived: 4223368377394776334
       special button XL: -6093857966501863202
       Mode small active: 5489826009916337686
+      Ui asset_Base Frame_0: 1087579343
       special button S: 7923507174155500452
       Pop up: -6240561656928618023
+      Ui asset_Base Frame_5: 1628793785
+      Ui asset_Base Frame_7: -896913101
+      Ui asset_Base Frame_8: -1174752058
       Mode small actived: -6127303196336870382
       Detail Frame: 5560013068929528938
       skill ingame_icon frame: 2597060991767745461
+      Ui asset_Base Frame_10: -701458633
+      Ui asset_Base Frame_1: -837264256
+      Ui asset_Base Frame_11: -1821675481
+      Ui asset_Base Frame_4: 742272466
       Health Boss: 6119941844776712526
+      Ui asset_Base Frame_6: 1904658965
+      Ui asset_Base Frame_9: 2005323472
       Mode nonactive: 1911913285
+      Ui asset_Base Frame_2: -1696270811
       Kaiju frame active: -34610726807966581
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

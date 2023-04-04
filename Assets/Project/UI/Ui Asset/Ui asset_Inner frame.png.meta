@@ -451,7 +451,7 @@ TextureImporter:
         width: 61
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,6 +459,426 @@ TextureImporter:
       bones: []
       spriteID: 32b27ad470d5b482aac974a3a3da99f3
       internalID: -1821357864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP-Kaiju
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 394
+        width: 208
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a3a668662b0404481c19dab574e92f
+      internalID: 84606396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 501
+        width: 188
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef424a899703a415ba8864b63ea6c97e
+      internalID: 89033531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill-bar
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 329
+        width: 191
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef49c7550a934d5fa7f9b9604227b13
+      internalID: -405389299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Inner frame_17
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1685
+        width: 718
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 33, y: 0, z: 33, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde2585142e2d47d89c1fc8776d23c0b
+      internalID: 560537232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Inner frame_18
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1511
+        width: 671
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 200, y: 0, z: 200, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fe7f8550dbe42c493660426f5a7904
+      internalID: 1696787569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Head
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1161
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f622da241fd4e00a2190ac5a79aef9
+      internalID: -1488657020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Head_hower
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1161
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5215ecc2e174e58b950394a232471e
+      internalID: 576450807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Body
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1031
+        width: 113
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dce44d105f44ecab5de8a3578ce334
+      internalID: -1899462097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Body_hower
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1031
+        width: 111
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f0442f0483340ecb0a766550d624c3
+      internalID: 1925939930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Weapon
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 901
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7951d236bb0a4329807003dffba9b7c
+      internalID: -1988448154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Weapon_hower
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 900
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feade5c2d3c3648b6ba35b507a0a7e10
+      internalID: -2092287145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Jewel
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 766
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a414c236efd415c9eda6f59e023835
+      internalID: -1463533717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gear_Jewel_hower
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 766
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580524166b2d489e90d6f18a04b0b0d
+      internalID: 1959273604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decrease_btn
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 659
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e8d7ec91069ad49807cb9460172127
+      internalID: 753059594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: increase_btn
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 658
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3872e5c5acd604e98928f1e9661a83
+      internalID: 1096902702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evolve_nonactive
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 495
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e286115e31646459361b3067f158fd
+      internalID: 369513019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evolve_active
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 495
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18db6e8a07123cd41aca941b79e5494e
+      internalID: 424271247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Inner frame_23
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 189
+        width: 765
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d883fe2ae738bc241ae6ec6c0c32ae05
+      internalID: 1879518850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Inner frame_24
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 68
+        width: 764
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf990436c18a6f54198fd1cb73d8517e
+      internalID: -1004833862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui asset_Inner frame_19
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 422
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2100b5d159a95be4aa7eff85e99f30c0
+      internalID: 593932699
       vertices: []
       indices: 
       edges: []
@@ -474,23 +894,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      HP-Kaiju: 84606396
+      Gear_Weapon_hower: -2092287145
       Ui asset_Inner frame_2: -1777324788
+      Gear_Head: -1488657020
       Ui asset_Inner frame_9: -723085688
       Ui asset_Inner frame_0: 1142094727
+      Gear_Jewel_hower: 1959273604
+      Ui asset_Inner frame_23: 1879518850
       Ui asset_Inner frame_10: 2049695770
+      evolve_active: 424271247
+      decrease_btn: 753059594
       Ui asset_Inner frame_6: -1115694341
+      Gear_Body: -1899462097
       Ui asset_Inner frame_12: -2100500972
       Ui asset_Inner frame_16: -1821357864
       Ui asset_Inner frame_11: -1446984214
+      Skill-bar: -405389299
       Ui asset_Inner frame_4: 1466878915
       Ui asset_Inner frame_13: -691913190
       Ui asset_Inner frame_15: -1011658344
+      Ui asset_Inner frame_17: 560537232
+      Gear_Jewel: -1463533717
+      Gear_Weapon: -1988448154
       Ui asset_Inner frame_14: 1763891612
       Ui asset_Inner frame_8: -1401887476
       Ui asset_Inner frame_5: 338772209
       Ui asset_Inner frame_7: -1815491806
+      Ui asset_Inner frame_18: 1696787569
+      Ui asset_Inner frame_19: 593932699
       Ui asset_Inner frame_1: 451185647
+      Gear_Body_hower: 1925939930
       Ui asset_Inner frame_3: -904857499
+      Ui asset_Inner frame_24: -1004833862
+      increase_btn: 1096902702
+      HP: 89033531
+      Gear_Head_hower: 576450807
+      evolve_nonactive: 369513019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

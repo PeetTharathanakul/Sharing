@@ -29,4 +29,5 @@ MonoBehaviour:
   level: 13
   Rare: 2
   Rank: 3
-  thissprite: {fileID: 21300000, guid: cc79f70071f2f42fd8db760380355d24, type: 3}
+  SubRank: 0
+  thissprite: {fileID: 5991709737888030100, guid: ac370d970e1e9254eb21a5ee53a99119, type: 3}

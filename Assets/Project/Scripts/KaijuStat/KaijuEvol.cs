@@ -17,9 +17,13 @@ public class KaijuEvol : MonoBehaviour
     private int GoldValue;
 
     [Header("UI")]
+    public Image CharacterImage;
     public Image MatImage;
-    public TextMeshProUGUI[] MatText;
-    public Button EvolButton;
+    public Image RankImage;
+    [SerializeField] private TextMeshProUGUI[] MatText;
+    [SerializeField] private Button EvolButton;
+    [SerializeField] private Toggle[] SubRankSet;
+    [SerializeField] private Sprite[] RankList;
     
 
     private void Start()
@@ -28,12 +32,9 @@ public class KaijuEvol : MonoBehaviour
         SetMat();
     }
 
-    private void Update()
-    {
-        MatText[2].text ="Rank: " + thisBase.Rank + " || SubRank: " + thisBase.SubRank;
-    }
     public void SetMat()
     {
+        CharacterImage.sprite = thisBase.thissprite;
         KaijuMark = Resources.Load<Items>("Inventory/Materials/" + thisBase.Name);
         MatImage.sprite = KaijuMark.ItemSprite;
         var mat = Matset.Ranklist[thisBase.Rank].Sublist[thisBase.SubRank];
@@ -41,7 +42,22 @@ public class KaijuEvol : MonoBehaviour
         GoldValue = mat.GoldValue;
         MatText[0].text = KaijuMark.Value + "/" + KaijuValue;
         MatText[1].text = GameData.GOLDS + "/" + GoldValue;
+        SetRank();
         StartCoroutine(CostCheck());
+    }
+
+    public void SetRank()
+    {
+        RankImage.sprite = RankList[thisBase.Rank - 1];
+        RankImage.SetNativeSize();
+        for (int i = 0; i < SubRankSet.Length; i++)
+        {
+            SubRankSet[i].isOn = false;
+            if (thisBase.SubRank > i)
+            {
+                SubRankSet[i].isOn = true;
+            }
+        }
     }
 
     IEnumerator CostCheck()
