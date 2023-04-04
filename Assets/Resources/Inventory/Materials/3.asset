@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8466454a2457b4410b86c7fb3e312c9b, type: 3}
-  m_Name: 1
+  m_Name: 3
   m_EditorClassIdentifier: 
-  Name: m1
-  ItemSprite: {fileID: 21300000, guid: affeade9874cf2347abb155e8d0db4d8, type: 3}
-  Description: Mat 1
-  Value: 1200
-  Rate: 2
+  Name: m3
+  ItemSprite: {fileID: 21300000, guid: 36e6970b84831434a9eac79abd03700b, type: 3}
+  Description: Mat 2
+  Value: 12
+  Rate: 0
   itemtype: 3
   itemsupplies:
     SuppliesType: {fileID: 0}

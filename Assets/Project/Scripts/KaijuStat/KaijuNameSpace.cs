@@ -25,14 +25,7 @@ namespace KaiJuGame
         LOSE
     }
 
-    public enum BaseMajor
-    {
-        Gradiator,
-        Destroyer,
-        Feather,
-        Enemy_T,
-        Enemy_H
-    }
+    public enum CharacterState { Spawn, Chase, UsingAbility }
 
     public enum Rarity { CM, UN_CM, RARE, EPIC, LG }
 
@@ -65,6 +58,16 @@ namespace KaiJuGame
         DARKLOD,
     }
     public enum StateSelect { NONE, SELECT, DEPLOY }
+
+    public enum BaseMajor
+    {
+        Gradiator,
+        Destroyer,
+        Feather,
+        Enemy_T,
+        Enemy_H
+    }
+    public enum TypeStats { HP, P_ATK, P_DEF, MOVE, CRI, DOGE, M_ATK, M_DEF, ATK_SPD }
 
     public enum Stats
     {
