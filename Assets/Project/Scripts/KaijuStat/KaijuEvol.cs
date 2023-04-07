@@ -20,10 +20,17 @@ public class KaijuEvol : MonoBehaviour
     public Image CharacterImage;
     public Image MatImage;
     public Image RankImage;
-    [SerializeField] private TextMeshProUGUI[] MatText;
+    public Image RareImage;
+    public GameObject Total;
     [SerializeField] private Button EvolButton;
+    [SerializeField] private TextMeshProUGUI[] MatText;
+    [SerializeField] private TextMeshProUGUI[] BeforeText;
+    [SerializeField] private TextMeshProUGUI[] AfterText;
+
+    [Header("List")]
     [SerializeField] private Toggle[] SubRankSet;
     [SerializeField] private Sprite[] RankList;
+    [SerializeField] private Sprite[] RareList;
     
 
     private void Start()
@@ -42,6 +49,26 @@ public class KaijuEvol : MonoBehaviour
         GoldValue = mat.GoldValue;
         MatText[0].text = KaijuMark.Value + "/" + KaijuValue;
         MatText[1].text = GameData.GOLDS + "/" + GoldValue;
+        switch (thisBase.Rare)
+        {
+            case Rarity.Common:
+                RankImage.sprite = RareList[0];
+                break;
+            case Rarity.Uncommon:
+                RankImage.sprite = RareList[1];
+                break;
+            case Rarity.Rare:
+                RankImage.sprite = RareList[2];
+                break;
+            case Rarity.Epic:
+                RankImage.sprite = RareList[3];
+                break;
+            case Rarity.Legendary:
+                RankImage.sprite = RareList[4];
+                break;
+            default:
+                break;
+        }
         SetRank();
         StartCoroutine(CostCheck());
     }
@@ -74,23 +101,23 @@ public class KaijuEvol : MonoBehaviour
     {
         KaijuMark.Value -= KaijuValue;
         GameData.GOLDS -= GoldValue;
-        thisBase.SubRank += 1;
-        if (thisBase.SubRank >= 5)
-        {
-            thisBase.SubRank = 0;
-            thisBase.Rank += 1;
-        }
+        SetTextRuntime();
         SetMat();
     }
 
     [ContextMenu("TestText")]
     public void SetTextRuntime()
     {
-        int rankUp = 2;
-        int stepUp = 2;
 
-        Stats newStats = customBaseStats.GetEnvole(rankUp,stepUp);
-        Stats nextStats = customBaseStats.GetEnvole(rankUp + 1,stepUp + 1);
+        Stats newStats = customBaseStats.GetEnvole(thisBase.Rank,thisBase.SubRank);
+
+        thisBase.SubRank += 1;
+        if (thisBase.SubRank%5 > 0)
+        {
+            thisBase.Rank += 1;
+        }
+
+        Stats nextStats = customBaseStats.GetEnvole(thisBase.Rank, thisBase.SubRank);
 
         var cCP = (nextStats.ATK - newStats.ATK);
         var cDEF = (nextStats.DEF - newStats.DEF);
@@ -99,9 +126,20 @@ public class KaijuEvol : MonoBehaviour
 
         Stats totalStats = new Stats(cCP,cDEF,cHP,cSPD);
 
+        BeforeText[0].text = "" + newStats.ATK;
+        BeforeText[1].text = "" + newStats.DEF;
+        BeforeText[2].text = "" + newStats.HP;
+        BeforeText[3].text = "" + newStats.SPD;
+
+        AfterText[0].text = "" + nextStats.ATK;
+        AfterText[1].text = "" + nextStats.DEF;
+        AfterText[2].text = "" + nextStats.HP;
+        AfterText[3].text = "" + nextStats.SPD;
+
         Debug.Log($"Before ATK = {newStats.ATK} || After = {nextStats.ATK} Calculate = {totalStats.ATK} \n" +
             $"Before DEF = {newStats.DEF} || After = {nextStats.DEF} Calculate = {totalStats.DEF} \n" +
             $"Before HP = {newStats.HP} || After = {nextStats.HP} Calculate = {totalStats.HP} \n" +
             $"Before SPD = {newStats.SPD} || After = {nextStats.SPD} Calculate = {totalStats.SPD} \n");
+        Total.SetActive(true);
     }
 }
