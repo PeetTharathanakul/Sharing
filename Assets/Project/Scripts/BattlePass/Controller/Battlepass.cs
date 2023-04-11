@@ -48,7 +48,7 @@ public class Battlepass : MonoBehaviour
 
     public void ProgressCheck(int exp)
     {
-     if(level < list.BattlePassList.Length)
+        if(level < list.BattlePassList.Length)
         {
             if (list.BattlePassList[level - 1].currentpts + exp < Maxpts)
             {

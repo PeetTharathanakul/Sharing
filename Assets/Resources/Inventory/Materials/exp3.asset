@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8466454a2457b4410b86c7fb3e312c9b, type: 3}
+  m_Name: exp3
+  m_EditorClassIdentifier: 
+  Name: Exp3
+  ItemSprite: {fileID: 211461131011732237, guid: 654087172b0a440c79015111c9d6a839, type: 3}
+  Description: Exp 150
+  Value: 100
+  Rate: 2
+  itemtype: 3
+  itemsupplies:
+    SuppliesType: {fileID: 0}
+    Value: 0
+  itemgear:
+    Rank: 0
+    stat: []
