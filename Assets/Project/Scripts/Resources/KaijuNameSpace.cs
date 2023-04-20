@@ -89,4 +89,12 @@ namespace KaiJuGame
     }
 
     public enum SkillPos { head, body, feet }
+
+    public enum GearType
+    {
+        offensive,
+        defensive,
+        support,
+        special
+    }
 }

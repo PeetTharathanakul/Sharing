@@ -51,19 +51,19 @@ public class KaijuEvol : MonoBehaviour
         MatText[1].text = GameData.GOLDS + "/" + GoldValue;
         switch (thisBase.Rare)
         {
-            case Rarity.Common:
+            case KaiJuGame.Rarity.CM:
                 RankImage.sprite = RareList[0];
                 break;
-            case Rarity.Uncommon:
+            case KaiJuGame.Rarity.UN_CM:
                 RankImage.sprite = RareList[1];
                 break;
-            case Rarity.Rare:
+            case KaiJuGame.Rarity.RARE:
                 RankImage.sprite = RareList[2];
                 break;
-            case Rarity.Epic:
+            case KaiJuGame.Rarity.EPIC:
                 RankImage.sprite = RareList[3];
                 break;
-            case Rarity.Legendary:
+            case KaiJuGame.Rarity.LG:
                 RankImage.sprite = RareList[4];
                 break;
             default:

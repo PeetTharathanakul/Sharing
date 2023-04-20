@@ -33,6 +33,7 @@ public class KaiJuBase : ScriptableObject
     [Header("Armor")]
     [SerializeField] float spGear;
     [SerializeField] float gear;
+    public Gearset[] Kaijugear;
 
     [Space(10)]
     [Header("EXP")]
@@ -152,6 +153,13 @@ public class KaiJuBase : ScriptableObject
     {
         float atk = GetAttack(this);
         return (atk * 60 * ((ATK_SPD) / 100)) * 0.001f;
+    }
+
+    [System.Serializable]
+    public class Gearset
+    {
+        public GearType type;
+        public Items Gear;
     }
 }
 

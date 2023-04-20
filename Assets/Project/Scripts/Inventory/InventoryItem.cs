@@ -32,19 +32,19 @@ public class InventoryItem : MonoBehaviour
     {
         switch (thisitem.Rate)
         {
-            case Rarity.Common:
+            case KaiJuGame.Rarity.CM:
                 thisframe.sprite = itemframe[0];
                 break;
-            case Rarity.Uncommon:
+            case KaiJuGame.Rarity.UN_CM:
                 thisframe.sprite = itemframe[1];
                 break;
-            case Rarity.Rare:
+            case KaiJuGame.Rarity.RARE:
                 thisframe.sprite = itemframe[2];
                 break;
-            case Rarity.Epic:
+            case KaiJuGame.Rarity.EPIC:
                 thisframe.sprite = itemframe[3];
                 break;
-            case Rarity.Legendary:
+            case KaiJuGame.Rarity.LG:
                 thisframe.sprite = itemframe[4];
                 break;
             default:

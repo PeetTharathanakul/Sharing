@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8466454a2457b4410b86c7fb3e312c9b, type: 3}
-  m_Name: 2
+  m_Name: 4
   m_EditorClassIdentifier: 
-  Name: g2
-  ItemSprite: {fileID: -6377593876185720871, guid: 654087172b0a440c79015111c9d6a839, type: 3}
-  Description: Gear 2
+  Name: g4
+  ItemSprite: {fileID: 211461131011732237, guid: 654087172b0a440c79015111c9d6a839, type: 3}
+  Description: Gear 4
   Value: 6
-  Rate: 1
+  Rate: 3
   itemtype: 2
   itemsupplies:
     SuppliesType: {fileID: 0}
@@ -24,7 +24,7 @@ MonoBehaviour:
   itemgear:
     IsEquip: 0
     Rank: 2
-    type: 0
+    type: 1
     stat:
     - Stat: Def
       Value: 3

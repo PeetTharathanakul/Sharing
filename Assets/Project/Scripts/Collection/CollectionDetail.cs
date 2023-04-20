@@ -30,19 +30,19 @@ public class CollectionDetail : MonoBehaviour
         CharSprite.sprite = thisBase.thissprite;
         switch (thisBase.Rare)
         {
-            case Rarity.Common:
+            case KaiJuGame.Rarity.CM:
                 CharFrame.sprite = FrameSet[0];
                 break;
-            case Rarity.Uncommon:
+            case KaiJuGame.Rarity.UN_CM:
                 CharFrame.sprite = FrameSet[1];
                 break;
-            case Rarity.Rare:
+            case KaiJuGame.Rarity.RARE:
                 CharFrame.sprite = FrameSet[2];
                 break;
-            case Rarity.Epic:
+            case KaiJuGame.Rarity.EPIC:
                 CharFrame.sprite = FrameSet[3];
                 break;
-            case Rarity.Legendary:
+            case KaiJuGame.Rarity.LG:
                 CharFrame.sprite = FrameSet[4];
                 break;
             default:

@@ -33,21 +33,22 @@ public class InventoryDetails : MonoBehaviour
         itemname.text = thisitems.Name;
         itemdescription.text = thisitems.Description;
         itemvalue.text = "stock : " + thisitems.Value;
+
         switch (thisitems.Rate)
         {
-            case Rarity.Common:
+            case KaiJuGame.Rarity.CM:
                 itemframe.sprite = frameset[0];
                 break;
-            case Rarity.Uncommon:
+            case KaiJuGame.Rarity.UN_CM:
                 itemframe.sprite = frameset[1];
                 break;
-            case Rarity.Rare:
+            case KaiJuGame.Rarity.RARE:
                 itemframe.sprite = frameset[2];
                 break;
-            case Rarity.Epic:
+            case KaiJuGame.Rarity.EPIC:
                 itemframe.sprite = frameset[3];
                 break;
-            case Rarity.Legendary:
+            case KaiJuGame.Rarity.LG:
                 itemframe.sprite = frameset[4];
                 break;
             default:

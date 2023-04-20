@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using KaiJuGame;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Items/Create Items")]
 [System.Serializable]
@@ -33,20 +34,13 @@ public class Items : ScriptableObject
     [System.Serializable]
     public class Gear
     {
+        public bool IsEquip;
         public int Rank;
+        public GearType type;
         public status[] stat;
     }
 }
 
-
-public enum Rarity
-{
-    Common,
-    Uncommon,
-    Rare,
-    Epic,
-    Legendary
-}
 
 [System.Serializable]
 public class status
