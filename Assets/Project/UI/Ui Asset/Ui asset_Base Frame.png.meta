@@ -272,7 +272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skill ingame_icon frame
+      name: skill passive_icon frame
       rect:
         serializedVersion: 2
         x: 422
@@ -721,7 +721,7 @@ TextureImporter:
         width: 209
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -729,6 +729,27 @@ TextureImporter:
       bones: []
       spriteID: c1634b79d6de479479fe16ce57a45c32
       internalID: -1821675481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill combat_icon frame
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2661
+        width: 137
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cba1c03bab47d646b977557ac2fae54
+      internalID: -1013739534
       vertices: []
       indices: 
       edges: []
@@ -745,6 +766,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Mode active: 4809147183388896117
+      skill combat_icon frame: -1013739534
       Base Frame: -2734213745085151698
       Skill Frame: 9158142606405252219
       Kaiju frame nonactive: -401193268779146508
@@ -762,8 +784,8 @@ TextureImporter:
       Ui asset_Base Frame_8: -1174752058
       Mode small actived: -6127303196336870382
       Detail Frame: 5560013068929528938
-      skill ingame_icon frame: 2597060991767745461
       Ui asset_Base Frame_10: -701458633
+      skill passive_icon frame: 2597060991767745461
       Ui asset_Base Frame_1: -837264256
       Ui asset_Base Frame_11: -1821675481
       Ui asset_Base Frame_4: 742272466

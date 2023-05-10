@@ -37,14 +37,15 @@ public class KaiJuBase : ScriptableObject
 
     [Space(10)]
     [Header("EXP")]
-    [SerializeField] float level;
-    public float CurrentExp;
+    [SerializeField] float level = 1;
+    public float CurrentExp = 1;
 
     [Header("Rate")]
     public Rarity Rare;
-    public int Rank = 0;
+    public int Rank = 1;
     public Sprite thissprite;
     public int SubRank = 5;
+    public int Index = 1;
 
     public string Name { get => kaijuName; set => kaijuName = value; }
 

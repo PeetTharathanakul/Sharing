@@ -35,8 +35,10 @@ public class KaijuUpgrade : MonoBehaviour
         Setcontent();
     }
 
-    private void OnEnable()
+    public void OnKaijuStateChanged(KaiJuBase kaiju, CustomBaseStats customBase)
     {
+        thisbase = kaiju;
+        Custombase = customBase;
         SetText();
     }
 
@@ -62,7 +64,7 @@ public class KaijuUpgrade : MonoBehaviour
 
     public void Upgradecal(int value)
     {
-        if((value + thisbase.CurrentExp) < UpgradeValue.GetEXP(Mathf.CeilToInt(thisbase.Level - 1)))
+        if ((value + thisbase.CurrentExp) < UpgradeValue.GetEXP(Mathf.CeilToInt(thisbase.Level - 1)))
         {
             thisbase.CurrentExp += value;
         }
@@ -94,7 +96,7 @@ public class KaijuUpgrade : MonoBehaviour
             Statobj.SetActive(true);
         }
         SetText();
-        
+
     }
 
 }

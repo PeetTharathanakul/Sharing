@@ -57,6 +57,9 @@ namespace KaiJuGame
         KAIJU,
         DARKLOD,
     }
+
+    public enum SkillType { ACTIVE, PASSIVE}
+
     public enum StateSelect { NONE, SELECT, DEPLOY }
 
     public enum BaseMajor

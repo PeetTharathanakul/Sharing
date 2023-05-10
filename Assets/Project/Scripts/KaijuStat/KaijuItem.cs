@@ -31,6 +31,12 @@ public class KaijuItem : MonoBehaviour
     {
         Gearlist.AddRange(Resources.LoadAll<Items>("Inventory/Gear"));
         Setcontent();
+        //SetGear();
+    }
+
+    public void OnKaijuStateChanged(KaiJuBase kaiju, CustomBaseStats customBase)
+    {
+        thisbase = kaiju;
         SetGear();
     }
 
@@ -41,6 +47,7 @@ public class KaijuItem : MonoBehaviour
             if (thisbase.Kaijugear[i].Gear)
             {
                 GearImg[i].sprite = thisbase.Kaijugear[i].Gear.ItemSprite;
+                GearImg[i].gameObject.SetActive(GearImg[i].sprite != null);
             }
         }
 
@@ -91,6 +98,7 @@ public class KaijuItem : MonoBehaviour
     {
         thisbase.Kaijugear[check].Gear = Gear.GetComponent<GearDetail>().thisitem;
         GearImg[check].sprite = Gear.GetComponent<GearDetail>().thisitem.ItemSprite;
+        GearImg[check].gameObject.SetActive(GearImg[check].sprite != null);
     }
 
 }

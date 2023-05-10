@@ -8,8 +8,8 @@ using System.IO;
 
 public class KaijuEvol : MonoBehaviour
 {
-    public KaiJuBase thisBase;
-    public CustomBaseStats customBaseStats;
+    private KaiJuBase thisBase;
+    private CustomBaseStats customBaseStats;
 
     public EvolSet Matset;
     private Items KaijuMark;
@@ -36,14 +36,30 @@ public class KaijuEvol : MonoBehaviour
     private void Start()
     {
         GameData.GOLDS = 100;
+        //SetMat();
+    }
+
+    public void OnKaijuStateChanged(KaiJuBase kaiju, CustomBaseStats customBase)
+    {
+        thisBase = kaiju;
+        customBaseStats = customBase;
         SetMat();
     }
 
     public void SetMat()
     {
         CharacterImage.sprite = thisBase.thissprite;
-        KaijuMark = Resources.Load<Items>("Inventory/Materials/" + thisBase.Name);
+        KaijuMark = Resources.Load<Items>("Inventory/Materials/" + thisBase.Index);
         MatImage.sprite = KaijuMark.ItemSprite;
+
+        Debug.Log("Rank  " + thisBase.Rank + " SubRank " + thisBase.SubRank);
+
+        var modSubRank = thisBase.SubRank % 5;
+        if(modSubRank == 0)
+        {
+            thisBase.SubRank = 1;
+        }
+
         var mat = Matset.Ranklist[thisBase.Rank].Sublist[thisBase.SubRank];
         KaijuValue = mat.KaijuMat;
         GoldValue = mat.GoldValue;
@@ -75,6 +91,7 @@ public class KaijuEvol : MonoBehaviour
 
     public void SetRank()
     {
+        Debug.Log("RankList  " + (thisBase.Rank - 1));
         RankImage.sprite = RankList[thisBase.Rank - 1];
         RankImage.SetNativeSize();
         for (int i = 0; i < SubRankSet.Length; i++)
@@ -112,7 +129,7 @@ public class KaijuEvol : MonoBehaviour
         Stats newStats = customBaseStats.GetEnvole(thisBase.Rank,thisBase.SubRank);
 
         thisBase.SubRank += 1;
-        if (thisBase.SubRank%5 > 0)
+        if (thisBase.SubRank%5 == 0)
         {
             thisBase.Rank += 1;
         }
