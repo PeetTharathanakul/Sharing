@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33a2e1aabc5196d409abf3a50bc6443e, type: 3}
-  m_Name: s1
+  m_Name: s3
   m_EditorClassIdentifier: 
-  Skillname: ult1
-  Skillimg: {fileID: -6377593876185720871, guid: 654087172b0a440c79015111c9d6a839, type: 3}
-  Skilldetails: ultimateskill
-  Type: 0
+  Skillname: passive 2
+  Skillimg: {fileID: -4086641692790053367, guid: 654087172b0a440c79015111c9d6a839, type: 3}
+  Skilldetails: passive skill 2
+  Type: 1
