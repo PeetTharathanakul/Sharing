@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using KaiJuGame;
 public class EndGame : MonoBehaviour
 {
-    [SerializeField] private List<Image> rewards = new List<Image>();
+    [SerializeField] private List<ItemDetails> rewards;
     [SerializeField] private List<Items> rewardsDrop;
 
     [SerializeField] private GameObject displayUI;
@@ -96,7 +96,10 @@ public class EndGame : MonoBehaviour
     {
         for (int i = 0; i < rewards.Count; i++)
         {
-            rewards[i].sprite = rewardsDrop[Random.Range(0, rewardsDrop.Count)].ItemSprite;
+            var ran = Random.Range(0, rewardsDrop.Count);
+            rewards[i].thisitem = rewardsDrop[ran];
+            rewardsDrop[ran].Value += 1;
+            rewards[i].SetDetail(true, 0);
         }
         currentStageText.text = $"Lv.{2}";
         StartCoroutine(SliderFillTube(false, progress,.5f));

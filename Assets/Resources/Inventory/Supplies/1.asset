@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   Name: i1
-  ItemSprite: {fileID: 21300000, guid: affeade9874cf2347abb155e8d0db4d8, type: 3}
+  ItemSprite: {fileID: 21300000, guid: 62073b8869796420d976627b2b056cb7, type: 3}
   Description: get m1 10pcs
   Value: 5
   Rate: 3
@@ -22,5 +22,7 @@ MonoBehaviour:
     SuppliesType: {fileID: 11400000, guid: 8b841889c70e94622859eac98949af1b, type: 2}
     Value: 10
   itemgear:
+    IsEquip: 0
     Rank: 0
+    type: 0
     stat: []

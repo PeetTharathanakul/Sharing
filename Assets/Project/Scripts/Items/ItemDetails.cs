@@ -28,7 +28,8 @@ public class ItemDetails : MonoBehaviour , IPointerClickHandler
         {
             itemToggle.isOn = false;
         }
-        valuetext.text = "x" + value;
+        if(valuetext)
+            valuetext.text = "x" + value;
     }
 
     
