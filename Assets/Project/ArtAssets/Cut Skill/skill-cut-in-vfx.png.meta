@@ -1,0 +1,1071 @@
+fileFormatVersion: 2
+guid: 259b948ccf50c17449b78ba8b737e92c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4056
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49556f025a3fd97418273769b2759376
+      internalID: -2094018665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4056
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1f0bda61a699d4dbd1583250231961
+      internalID: -1976483451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4056
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33f6f0ee86af8341bddb2dc91557dff
+      internalID: -707392074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4056
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dcd7d4997a0df47b6728c323d19000
+      internalID: -668607273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4056
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7526c5077703c7a4c9a1b08a194e85dc
+      internalID: -223934431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_5
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4056
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54bc468ceee90849aa68bb01564572b
+      internalID: -809152637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3380
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79d0dd160c11a24cb878809bfcecf7a
+      internalID: -616106094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3380
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af3d676a97df6d4bbeff2c76e1023c9
+      internalID: 1508750034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3380
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e258238cee99fbd4697f2cf629cb905e
+      internalID: 223761636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3380
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6389ada0ef4d29b4897b6a69ef32e4b3
+      internalID: -868780026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_10
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3380
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79dc38b5e057e14a99ecf5a38917e0f
+      internalID: 772760299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3380
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b9c81307c27f341b7f6249589c4d01
+      internalID: 1813903875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2704
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09419dd45e1f0424ead10d99d8aad390
+      internalID: -224335458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2704
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456f635e90407794f897da0981b42ead
+      internalID: -1774369354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2704
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6faed687c7ebd4abb6b628cc34a3ea
+      internalID: 1445689049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2704
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f62d0e51a4428b40affe33f23a3afed
+      internalID: -635578314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_16
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2704
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029872892113b6945bc9b2f90d6a8f21
+      internalID: 393824739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_17
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2704
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a99232d85b8a941bc67824765b883e
+      internalID: 142977518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2028
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2574179c1d1444cb0e738cfb0b04fd
+      internalID: 341054862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2028
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a053fa71cf6a9ab40834f549c6abf249
+      internalID: 564876482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2028
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d712d11a0a504324b86e83e8dcf90df9
+      internalID: -1687864165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_21
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2028
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c742324bb1644dc48925eeea0ac841bc
+      internalID: 1977819383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_22
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2028
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c442555045b15e4ca933971b739d8ef
+      internalID: -926008855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_23
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2028
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca9264b45d12bd468edba238747419e
+      internalID: 813467706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9934706e36bc04bb7bf4d07035302f
+      internalID: -682262431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1352
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ce8ebde1f1cb4782478c691ff879d
+      internalID: -1470784124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_26
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1352
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e396033eceba4aa4e88385d07a6ff
+      internalID: 1886354527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1352
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eff10ab5c55804e9ec07e751390e4d
+      internalID: 691053410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_28
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1352
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ea1033c3cd97f4890e06da03320e71
+      internalID: 1724851358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_29
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1352
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf56ba0ec6673d4e9f7dc70b8d78ef6
+      internalID: 1589583356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67136a0d9d714c74090db20a07b46a7f
+      internalID: 1665263391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 676
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f96ea288cda82419511a3475d814d5
+      internalID: 1948963170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 676
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047acc34b9f38a4c90625dcd945b0b9
+      internalID: 1645029294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_33
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 676
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc907e8f01e80d04d878870316742161
+      internalID: -1125046276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_34
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 676
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f0962dfc636024d9488168502a2755
+      internalID: 467576289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 676
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e109f1ed3698d44ab4e0d62d79fd7a
+      internalID: -91513114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4733ea4c5fd1f2428f73a892540aa41
+      internalID: 995805682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ebd70b6d01e63418ee1a744fb20ac3
+      internalID: -552454715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_38
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00b37ed0d638344b16019ba1e947e3
+      internalID: 1003341476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_39
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375cd2b033a751f4c80b0de82a1c5846
+      internalID: -1811609062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a22ce9c49bbe34fb2299715a5afe26
+      internalID: -483681114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill-cut-in-vfx_41
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1200
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8fa0129b47e2643a6479223c44295d
+      internalID: 841269995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skill-cut-in-vfx_0: -2094018665
+      skill-cut-in-vfx_1: -1976483451
+      skill-cut-in-vfx_10: 772760299
+      skill-cut-in-vfx_11: 1813903875
+      skill-cut-in-vfx_12: -224335458
+      skill-cut-in-vfx_13: -1774369354
+      skill-cut-in-vfx_14: 1445689049
+      skill-cut-in-vfx_15: -635578314
+      skill-cut-in-vfx_16: 393824739
+      skill-cut-in-vfx_17: 142977518
+      skill-cut-in-vfx_18: 341054862
+      skill-cut-in-vfx_19: 564876482
+      skill-cut-in-vfx_2: -707392074
+      skill-cut-in-vfx_20: -1687864165
+      skill-cut-in-vfx_21: 1977819383
+      skill-cut-in-vfx_22: -926008855
+      skill-cut-in-vfx_23: 813467706
+      skill-cut-in-vfx_24: -682262431
+      skill-cut-in-vfx_25: -1470784124
+      skill-cut-in-vfx_26: 1886354527
+      skill-cut-in-vfx_27: 691053410
+      skill-cut-in-vfx_28: 1724851358
+      skill-cut-in-vfx_29: 1589583356
+      skill-cut-in-vfx_3: -668607273
+      skill-cut-in-vfx_30: 1665263391
+      skill-cut-in-vfx_31: 1948963170
+      skill-cut-in-vfx_32: 1645029294
+      skill-cut-in-vfx_33: -1125046276
+      skill-cut-in-vfx_34: 467576289
+      skill-cut-in-vfx_35: -91513114
+      skill-cut-in-vfx_36: 995805682
+      skill-cut-in-vfx_37: -552454715
+      skill-cut-in-vfx_38: 1003341476
+      skill-cut-in-vfx_39: -1811609062
+      skill-cut-in-vfx_4: -223934431
+      skill-cut-in-vfx_40: -483681114
+      skill-cut-in-vfx_41: 841269995
+      skill-cut-in-vfx_5: -809152637
+      skill-cut-in-vfx_6: -616106094
+      skill-cut-in-vfx_7: 1508750034
+      skill-cut-in-vfx_8: 223761636
+      skill-cut-in-vfx_9: -868780026
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
