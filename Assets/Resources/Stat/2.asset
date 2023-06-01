@@ -26,8 +26,13 @@ MonoBehaviour:
   speed: 0
   spGear: 0
   gear: 0
+  Kaijugear:
+  - type: 0
+    Gear: {fileID: 0}
   level: 14
+  CurrentExp: 1
   Rare: 1
   Rank: 2
-  SubRank: 0
   thissprite: {fileID: -7185145259061222356, guid: ac370d970e1e9254eb21a5ee53a99119, type: 3}
+  SubRank: 0
+  Index: 1
